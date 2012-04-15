@@ -1,0 +1,50 @@
+//##############################################################################
+//                                                                             #
+// Copyright 2011 Meir yanovich,	                                           #
+//	   Questions just email me to meiry242@gmail.com / meiryanovich@gmail.com  #
+//                                                                             #
+//##############################################################################
+
+
+
+
+How to configure Drill (the web spider) 
+--------------------------------------------------------
+Note : this is the first draft of the configuration ,
+I understand some logic will be hard to grasp at first , I will try to explain in simple words  as I can
+The configuration is done in code this means hard coded. 
+1.Define the url you to drill down with the spider
+  Find the drill.cpp file & look for linkVec.push_back("http://www.xxxx.com/somthing/"); 
+  Here instead of the string enter the site url.
+  
+2.Find the file Config.cpp , there you will find different data structures that needs to be filled 
+	2.1:
+	 infoHolder.linksBlackList.insert (…)  , are the strings that sholdnt be in the links the spider follow
+	 for example if you define infoHolder.linksBlackList.insert ("#comments")  all links that contain this string will be ignored
+	2.2:
+	 infoHolder.linksMastHaveList.insert(…) are the strings that must be in in the links the spider follow
+	 this is to insure the spider stays in our target web site scope
+	 for example infoHolder.linksMastHaveList.insert("http://www.xxxx.com/somthing");
+	2.3:
+	 infoHolder.BaseUrl again to insure the spider stays in our target web site scope 
+	 for example : infoHolder.BaseUrl = http://www.xxxx.com/
+	2.4
+	 infoHolder.iThreadsToInvoke = 1; how much threads to invoke 
+	 infoHolder.iThreadPoolSize = 1; thread pool size 
+	 please keep it single threads for now the multi thread option still very expiramntal
+	2.5
+	 Scraplet are regexp units each unit hold rule . the rule is regexp
+	 that capture/scrap string from the current web page the drill spider visit
+	 Scraplet.regExp : is the regexp string 
+	 Scraplet.IsUnique : looks only for one pattern result of the regexp if true 
+	 if false meny patterns can be capture in the same page
+
+3.Find the file ProcessingUnit.cpp search for the HandlePageScanResults function here you will
+  configure the xml output file .basclly you poll the keys you defined in the Config.cpp Hash map
+  and Concat strings to build the xml look at the code it very straightforward. 
+
+
+
+		 
+
+
