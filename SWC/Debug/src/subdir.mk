@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/HTTP.cpp \
 ../src/SWC.cpp 
 
 OBJS += \
+./src/HTTP.o \
 ./src/SWC.o 
 
 CPP_DEPS += \
+./src/HTTP.d \
 ./src/SWC.d 
 
 

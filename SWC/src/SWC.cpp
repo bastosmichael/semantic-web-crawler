@@ -7,6 +7,7 @@
 //============================================================================
 
 #include <iostream>
+#include <vector>
 #include <string>
 #include <cstdlib>
 #include <locale>
@@ -15,7 +16,11 @@
 #include <sys/types.h>
 #include <fstream>
 using namespace std;
-void downloadUrl (string url, string urlhash);
+void downloadUrl (const char *path, string url, string urlhash);
+void loadpage(const char *p, string url, string urlhash);
+
+
+
 int main(int argc, char *argv[])
 {
 
@@ -24,7 +29,7 @@ int main(int argc, char *argv[])
 	//cout << "There are " << argc << " arguments:" << endl;
 	if(mkdir("cache",0777)==-1)//creating a directory
 	{
-	        cerr<<"Caching..." <<endl;
+	        //cerr<<"Caching..." <<endl;
 	}
 
     // Loop through each argument and print its number and value
@@ -35,36 +40,36 @@ int main(int argc, char *argv[])
         std::stringstream strstream;
         strstream << inputhash;
         strstream >> hash;
+        string path = "cache/" + hash;
+        const char *p;
+        p=path.c_str();
+        cout << p << endl;
         if(inputs.find("http://") != string::npos){
         	cout << i << " " << inputs << " " << inputhash << endl;
-
-        		downloadUrl(inputs, hash);
+        	loadpage(p,inputs,hash);
         }
     }
 
     return 0;
 }
 
-void downloadUrl (string url, string urlhash){
+void downloadUrl (const char *path, string url, string urlhash){
 	std::string command = "cd cache && wget " + url + " --output-document=" + urlhash + " --continue --force-html";
 	system(command.c_str());
 	//cout << command << endl;
+	loadpage(path,url,urlhash);
 }
 
-void parseUrl(){
+void loadpage(const char *path, string url, string urlhash){
 	string line;
-
-		    ifstream read ("pathname/file.txt");//reading a file
-		    if (read.is_open())
-		    {
-
-		        while (! read.eof() )
-		        {
-		            getline (read,line);
-		            cout<<line<<endl;
-		        }
-		        read.close();
-		    }
-		    else
-		        cout << "Unable to open file";
+	ifstream read (path);//reading a file
+	if (read.is_open()) {
+		while (! read.eof() ) {
+			getline (read,line);
+			cout<<line<<endl;
+	    }
+	    read.close();
+	} else {
+		downloadUrl(path,url,urlhash);
+	}
 }
