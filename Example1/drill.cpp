@@ -4,13 +4,6 @@
 #include "ProcessingUnit.h"
 #include <iostream>
 #include <vector>
-//##############################################################################
-//                                                                             #
-// Copyright 2011 Meir yanovich,	                                           #
-//	   Questions just email me to meiry242@gmail.com / meiryanovich@gmail.com  #
-//                                                                             #
-//##############################################################################
-
 #include <sstream> 
 
 using namespace std;
