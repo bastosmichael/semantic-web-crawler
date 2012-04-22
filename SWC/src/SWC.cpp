@@ -3,7 +3,7 @@
 // Author      : Michael Bastos
 // Version     :
 // Copyright   : This is open source software
-// Description : Hello World in C++, Ansi-style
+// Description : C++ Crawler
 //============================================================================
 
 #include <iostream>
