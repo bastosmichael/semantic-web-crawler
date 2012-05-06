@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : Regex.cpp
+// Author      : Michael Bastos
+// Version     :
+// Copyright   : This is open source software
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <regex.h>
+
+
+
+
+int main() {
+    int b,e;
+    char *match=regexp("this and7 that","[a-z]+[0-9]",&b,&e);
+    printf("->%s<-\n(b=%d e=%d)\n",match,b,e);
+    return 0;
+}

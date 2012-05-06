@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project Regex Test ****
+
+make all 
+Building file: ../src/Regex Test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Regex Test.d" -MT"src/Regex\ Test.d" -o "src/Regex Test.o" "../src/Regex Test.cpp"
+../src/Regex Test.cpp: In function ‘int main(int, char**)’:
+../src/Regex Test.cpp:35:23: error: ‘exit’ was not declared in this scope
+make: *** [src/Regex Test.o] Error 1
+
+**** Build Finished ****

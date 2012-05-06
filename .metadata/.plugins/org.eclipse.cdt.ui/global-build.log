@@ -3417,3 +3417,645 @@ Finished building target: SWC
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:35:33: error: ‘processArguments’ was not declared in this scope
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:18:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:18:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:87:39: error: expected primary-expression before ‘pageque’
+../src/SWC.cpp:87:39: error: expected ‘,’ or ‘;’ before ‘pageque’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void processArguments(std::string)’:
+../src/SWC.cpp:63:13: error: ‘page’ was not declared in this scope
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Regex Test ****
+
+make all 
+Building file: ../src/Regex Test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Regex Test.d" -MT"src/Regex\ Test.d" -o "src/Regex Test.o" "../src/Regex Test.cpp"
+../src/Regex Test.cpp: In function ‘int main(int, char**)’:
+../src/Regex Test.cpp:35:23: error: ‘exit’ was not declared in this scope
+make: *** [src/Regex Test.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:32:1: error: expected initializer before ‘int’
+../src/SWC.cpp: In function ‘char* regexp(char*, char*, int*, int*)’:
+../src/SWC.cpp:58:34: error: invalid conversion from ‘void*’ to ‘char*’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:41:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:41:61: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp: In function ‘char* regexp(char*, char*, int*, int*)’:
+../src/SWC.cpp:58:34: error: invalid conversion from ‘void*’ to ‘char*’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****

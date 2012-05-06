@@ -6,13 +6,30 @@
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="true" key="stubSelected1"/>
-		<item value="true" key="testFileSelected"/>
-		<item value="false" key="namespaceSelected"/>
+		<item value="true" key="namespaceSelected"/>
+		<item value="false" key="testFileSelected"/>
 		<item value="false" key="stubInline1"/>
 		<item value="true" key="stubVirtual1"/>
 		<item value="false" key="stubInline0"/>
+		<item value="std" key="namespace"/>
 		<item value="true" key="stubSelected0"/>
-		<item value="" key="namespace"/>
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NamespaceSelectionDialogSettings">
+		<item value="false" key="show_structs"/>
+		<item value="false" key="show_lowlevel"/>
+		<item value="false" key="show_macros"/>
+		<item value="false" key="show_variables"/>
+		<item value="456" key="width"/>
+		<item value="false" key="show_functions"/>
+		<item value="false" key="show_enums"/>
+		<item value="680" key="height"/>
+		<item value="false" key="show_classes"/>
+		<item value="false" key="show_typedefs"/>
+		<item value="true" key="show_namespaces"/>
+		<item value="false" key="show_unions"/>
+		<item value="false" key="show_enumerators"/>
+		<item value="24" key="y"/>
+		<item value="525" key="x"/>
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
