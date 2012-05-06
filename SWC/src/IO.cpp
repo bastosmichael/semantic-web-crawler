@@ -1,0 +1,20 @@
+/*
+ * IO.cpp
+ *
+ *  Created on: May 5, 2012
+ *      Author: michael
+ */
+
+#include "IO.h"
+
+namespace std {
+
+IO::IO() {
+	// TODO Auto-generated constructor stub
+}
+
+IO::~IO() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

@@ -1,0 +1,7 @@
+Refactoring.savealleditors=true
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.editor.UseStructuralMode=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
