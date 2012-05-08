@@ -18,8 +18,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <regex.h>
+#include <string.h>
+#include <sys/types.h>
+#include <algorithm>   // remove_if()
+#include <cctype>      // isspace()
+#include <functional>  // ptr_fun <>
 using namespace std;
+
 vector<string> page;
+
 void downloadUrl (const char *path, string url, string urlhash);
 void loadPage(const char *p, string url, string urlhash);
 void parsePage(vector<string> page);
@@ -27,15 +34,14 @@ void parseLine(string line);
 void processArguments(std::string inputs);
 void checkForCacheFolder();
 void generateUrlHash(std::string inputs);
+string delSpaces(string &str);
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
 	checkForCacheFolder();
     // Loop through each argument and print its number and value
     for (int i=0; i < argc; i++){
         processArguments(argv[i]);
     }
-
     return 0;
 }
 
@@ -108,6 +114,37 @@ void parsePage(vector<string> page){
 }
 
 void parseLine(string line){
-	//cout << line << endl;
 
+	//cout << line << endl;
+	//delSpaces(line);
+	regex_t reg;
+
+	string pattern = "[^tpr]{2,}";
+
+	regmatch_t matches[1];
+
+	regcomp(&reg,pattern.c_str(),REG_EXTENDED|REG_ICASE);
+
+	if (regexec(&reg,line.c_str(),1,matches,0)==0) {
+	  //cout << "Match ";
+	  cout << line.substr(matches[0].rm_so,matches[0].rm_eo-matches[0].rm_so);
+	  //cout << " found starting at: ";
+	  //cout << matches[0].rm_so;
+	  //cout << " and ending at ";
+	  //cout << matches[0].rm_eo;
+	  //cout << " - " << line;
+	  cout << endl;
+	} else {
+	  //cout << "Match not found.";
+	  //cout << endl;
+	}
+	regfree(&reg);
+
+}
+
+string delSpaces(string &line)
+{
+	std::string::iterator end_pos = std::remove(line.begin(), line.end(), ' ');
+	line.erase(end_pos, line.end());
+	return line;
 }

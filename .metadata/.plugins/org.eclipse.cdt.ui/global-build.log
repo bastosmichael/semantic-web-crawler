@@ -4059,3 +4059,1488 @@ Finished building target: SWC
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:22:0:
+../src/regexreplace.h: In function ‘int reallocx(char**, int, int)’:
+../src/regexreplace.h:23:28: error: invalid conversion from ‘void*’ to ‘char*’ [-fpermissive]
+../src/regexreplace.h: In function ‘int regexec_matchall(regex_t*, const char*, size_t, regmatch_tt*, int)’:
+../src/regexreplace.h:35:110: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../src/SWC.cpp:22:0:
+../src/regexreplace.h:40:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../src/regexreplace.h: In function ‘int preg_replace(regex_t*, char*, regex_t*, char*, char**, int)’:
+../src/regexreplace.h:107:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:37:133: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:37:133: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:37:133: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:42:127: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:42:127: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:42:127: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:47:131: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:47:131: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:47:131: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:52:105: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:52:105: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:52:105: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:57:132: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:57:132: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:57:132: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:22:0:
+../src/regexreplace.h: In function ‘int reallocx(char**, int, int)’:
+../src/regexreplace.h:23:28: error: invalid conversion from ‘void*’ to ‘char*’ [-fpermissive]
+../src/regexreplace.h: In function ‘int regexec_matchall(regex_t*, const char*, size_t, regmatch_tt*, int)’:
+../src/regexreplace.h:35:110: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../src/SWC.cpp:22:0:
+../src/regexreplace.h:40:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../src/regexreplace.h: In function ‘int preg_replace(regex_t*, char*, regex_t*, char*, char**, int)’:
+../src/regexreplace.h:107:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:37:133: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:37:133: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:37:133: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:42:127: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:42:127: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:42:127: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:47:131: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:47:131: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:47:131: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:52:105: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:52:105: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:52:105: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:57:132: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:57:132: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:57:132: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, const char**)’:
+../src/SWC.cpp:40:9: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:40:9: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:41:36: warning: ‘myregex’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, const char**)’:
+../src/SWC.cpp:39:28: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:39:28: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:39:116: warning: ‘myregex’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, const char**)’:
+../src/SWC.cpp:39:28: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:39:28: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:39:116: warning: ‘myregex’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, const char**)’:
+../src/SWC.cpp:39:28: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:39:28: warning: unknown escape sequence: '\.' [enabled by default]
+../src/SWC.cpp:39:116: warning: ‘myregex’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:89:56: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:89:56: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:90:77: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:90:77: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:90:67: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+../src/SWC.cpp:91:34: error: no matching function for call to ‘std::basic_string<char>::erase(std::string&, std::basic_string<char>::iterator)’
+../src/SWC.cpp:91:34: note: candidates are:
+/usr/include/c++/4.6/bits/basic_string.h:1347:7: note: std::basic_string<_CharT, _Traits, _Alloc>& std::basic_string<_CharT, _Traits, _Alloc>::erase(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>, std::basic_string<_CharT, _Traits, _Alloc> = std::basic_string<char>, std::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+/usr/include/c++/4.6/bits/basic_string.h:1347:7: note:   no known conversion for argument 1 from ‘std::string {aka std::basic_string<char>}’ to ‘long unsigned int’
+/usr/include/c++/4.6/bits/basic_string.h:1363:7: note: std::basic_string<_CharT, _Traits, _Alloc>::iterator std::basic_string<_CharT, _Traits, _Alloc>::erase(std::basic_string<_CharT, _Traits, _Alloc>::iterator) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>, std::basic_string<_CharT, _Traits, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, typename _Alloc::rebind<_CharT>::other::pointer = char*]
+/usr/include/c++/4.6/bits/basic_string.h:1363:7: note:   candidate expects 1 argument, 2 provided
+/usr/include/c++/4.6/bits/basic_string.tcc:392:6: note: std::basic_string<_CharT, _Traits, _Alloc>::iterator std::basic_string<_CharT, _Traits, _Alloc>::erase(std::basic_string<_CharT, _Traits, _Alloc>::iterator, std::basic_string<_CharT, _Traits, _Alloc>::iterator) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>, std::basic_string<_CharT, _Traits, _Alloc>::iterator = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, typename _Alloc::rebind<_CharT>::other::pointer = char*]
+/usr/include/c++/4.6/bits/basic_string.tcc:392:6: note:   no known conversion for argument 1 from ‘std::string {aka std::basic_string<char>}’ to ‘__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘std::string delSpaces(std::string&)’:
+../src/SWC.cpp:121:53: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘std::string delSpaces(std::string&)’:
+../src/SWC.cpp:122:53: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘std::string delSpaces(std::string)’:
+../src/SWC.cpp:121:53: error: cannot convert ‘std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}’ to ‘const char*’ for argument ‘1’ to ‘int remove(const char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `loadPage(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+/home/michael/Semantic-Web-Crawler/SWC/Debug/../src/SWC.cpp:93: undefined reference to `delSpaces(std::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:121:18: warning: character constant too long for its type [enabled by default]
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:121:18: error: conversion from ‘int’ to non-scalar type ‘regex_t {aka re_pattern_buffer}’ requested
+../src/SWC.cpp:126:40: error: cannot convert ‘std::string {aka std::basic_string<char>}’ to ‘const char*’ for argument ‘2’ to ‘int regcomp(regex_t*, const char*, int)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:126:40: error: cannot convert ‘std::string {aka std::basic_string<char>}’ to ‘const char*’ for argument ‘2’ to ‘int regcomp(regex_t*, const char*, int)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main()’:
+../src/SWC.cpp:63:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:64:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:65:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:66:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:67:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:68:17: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:69:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:70:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:71:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:72:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:146:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:146:15: warning: character constant too long for its type [enabled by default]
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:146:39: error: invalid conversion from ‘int’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:41:6: error:   initializing argument 2 of ‘void match(regex_t*, char*)’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:41:1: error: expected initializer before ‘int’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:133:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:134:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:135:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:136:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:137:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:138:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:139:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:140:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:141:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:133:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:134:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:135:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:136:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:137:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:138:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:139:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:140:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:141:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:133:19: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:134:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:135:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:136:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:137:18: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:138:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+../src/SWC.cpp:139:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:140:21: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+../src/SWC.cpp:141:22: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:19: error: cannot convert ‘std::string {aka std::basic_string<char>}’ to ‘char*’ for argument ‘2’ to ‘void match(regex_t*, char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:131:21: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+../src/SWC.cpp:133:16: error: invalid conversion from ‘char’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:39:6: error:   initializing argument 2 of ‘void match(regex_t*, char*)’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:134:16: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:39:6: error:   initializing argument 2 of ‘void match(regex_t*, char*)’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:16: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:24: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:24: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:132:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:122:20: warning: character constant too long for its type [enabled by default]
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:122:20: warning: overflow in implicit constant conversion [-Woverflow]
+../src/SWC.cpp:128:46: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+/usr/include/regex.h:575:12: error:   initializing argument 2 of ‘int regcomp(regex_t*, const char*, int)’ [-fpermissive]
+../src/SWC.cpp:133:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:122:19: warning: unknown escape sequence: '\w' [enabled by default]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:122:19: warning: unknown escape sequence: '\w' [enabled by default]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:122:2: error: stray ‘\’ in program
+../src/SWC.cpp:122:2: error: stray ‘\’ in program
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:122:22: error: ‘W’ was not declared in this scope
+../src/SWC.cpp: In lambda function:
+../src/SWC.cpp:122:24: error: expected ‘{’ before ‘;’ token
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:122:24: warning: lambda expressions only available with -std=c++0x or -std=gnu++0x [enabled by default]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parsePage(std::vector<std::basic_string<char> >)’:
+../src/SWC.cpp:112:24: error: too many arguments to function ‘void parseLine(std::string)’
+../src/SWC.cpp:34:6: note: declared here
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
