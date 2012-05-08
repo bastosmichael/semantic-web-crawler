@@ -26,6 +26,7 @@
 using namespace std;
 
 vector<string> page;
+vector<string> regex;
 
 void downloadUrl (const char *path, string url, string urlhash);
 void loadPage(const char *p, string url, string urlhash);
@@ -53,6 +54,9 @@ void checkForCacheFolder(){
 }
 
 void processArguments(std::string inputs){
+	string pattern = "[^tpr]{2,}";
+	regex.push_back (pattern);
+	
 	if(inputs.find("SWC") != string::npos){
 		//Check for application argument ./SWC
 	} else if(inputs.find("http://") != string::npos){
@@ -108,19 +112,23 @@ void downloadUrl (const char *path, string url, string urlhash){
 void parsePage(vector<string> page){
 	for (vector<string>::iterator line = page.begin();line != page.end();++line)
 	{
-		parseLine(*line);
+		parseLine(*line,regex);
 	}
 
 }
 
-void parseLine(string line){
-
+void parseLine(string line, vector<string> regex){
+	
+	for (vector<string>::iterator pattern = regex.begin();pattern != regex.end();++pattern)
+	{
 	//cout << line << endl;
-	//delSpaces(line);
+	delSpaces(line);
+	regexLine(line,*pattern);
+	}
+}
+
+void regexLine(string line, string pattern){
 	regex_t reg;
-
-	string pattern = "[^tpr]{2,}";
-
 	regmatch_t matches[1];
 
 	regcomp(&reg,pattern.c_str(),REG_EXTENDED|REG_ICASE);
@@ -139,7 +147,6 @@ void parseLine(string line){
 	  //cout << endl;
 	}
 	regfree(&reg);
-
 }
 
 string delSpaces(string &line)
