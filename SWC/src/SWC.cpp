@@ -27,6 +27,7 @@ using namespace std;
 
 vector<string> page;
 vector<string> regex;
+vector<string> data;
 
 void downloadUrl (const char *path, string url, string urlhash);
 void loadPage(const char *p, string url, string urlhash);
@@ -152,6 +153,10 @@ void regexLine(string line, string pattern){
 	  //cout << endl;
 	}
 	regfree(&reg);
+}
+
+void saveAsCSV(){
+	
 }
 
 string delCharacter(string &line, string remove)
