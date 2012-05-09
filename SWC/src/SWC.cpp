@@ -156,7 +156,24 @@ void regexLine(string line, string pattern){
 }
 
 void saveAsCSV(){
-	
+	int mat[3][3] = {{1, 2, 3},
+	{4,5,6},{7,8,9}};
+
+	int i, j;
+	mat2[3][3];
+	/*Write matrix to file*/
+	FILE *fp = fopen("matrix.txt", "w");
+	for(i=0; i<3; i++)
+	for(j=0;j<3; j++)
+	fprinf(fp, "%d\n", mat[i][j]);
+	fclose(fp);
+	/*Read matrix back from file*/
+	fp = fopen("matrix.txt", "r");
+	for(i=0; i<3; i++)
+	for(j=0;j<3; j++)
+	fscanf(fp, "%d", &mat2[i][j]);
+	fclose(fp);
+
 }
 
 string delCharacter(string &line, string remove)
