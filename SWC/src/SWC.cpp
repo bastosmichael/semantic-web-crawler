@@ -35,7 +35,7 @@ void parseLine(string line);
 void processArguments(std::string inputs);
 void checkForCacheFolder();
 void generateUrlHash(std::string inputs);
-string delSpaces(string &str);
+string delCharacter(string &line, string remove);
 
 int main(int argc, char *argv[]) {
 	checkForCacheFolder();
@@ -59,14 +59,19 @@ void processArguments(std::string inputs){
 	
 	if(inputs.find("SWC") != string::npos){
 		//Check for application argument ./SWC
-	} else if(inputs.find("http://") != string::npos){
+	} else if(inputs.find("http://") != string::npos || inputs.find("https://") != string::npos){
 		generateUrlHash(inputs);
-	} else if(inputs.find("https://") != string::npos){
-
-	} else if(inputs.find("=") != string::npos){
-
+	} else if(inputs.find("block=") != string::npos){
+		
+	} else if(inputs.find("active=") != string::npos){
+		
+	} else if(inputs.find(".=") != string::npos){
+		string block = delCharacter(inputs, '.=');
+		regex.push_back (block);
+	} else if(inputs.find("pagination=") != string::npos){
+		
 	}
-
+	parsePage(page);
 }
 
 void generateUrlHash(std::string url){
@@ -86,7 +91,7 @@ void generateUrlHash(std::string url){
 }
 
 void loadPage(const char *path, string url, string urlhash){
-	page.clear();
+	//page.clear();
 	string line;
 	ifstream read (path);//reading a file
 	if (read.is_open()) {
@@ -96,7 +101,7 @@ void loadPage(const char *path, string url, string urlhash){
 			//cout<<line<<endl;
 	    }
 	    read.close();
-	    parsePage(page);
+	    //parsePage(page);
 	} else {
 		downloadUrl(path,url,urlhash);
 	}
@@ -122,7 +127,7 @@ void parseLine(string line, vector<string> regex){
 	for (vector<string>::iterator pattern = regex.begin();pattern != regex.end();++pattern)
 	{
 	//cout << line << endl;
-	delSpaces(line);
+	delCharacter(line,' ');
 	regexLine(line,*pattern);
 	}
 }
@@ -149,9 +154,9 @@ void regexLine(string line, string pattern){
 	regfree(&reg);
 }
 
-string delSpaces(string &line)
+string delCharacter(string &line, string remove)
 {
-	std::string::iterator end_pos = std::remove(line.begin(), line.end(), ' ');
+	std::string::iterator end_pos = std::remove(line.begin(), line.end(), remove);
 	line.erase(end_pos, line.end());
 	return line;
 }
