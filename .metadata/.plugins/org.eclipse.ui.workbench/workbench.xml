@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="740" maximized="true" width="1008" x="305" y="91">
+<window height="740" width="1004" x="90" y="60">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -14,11 +14,11 @@
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="172" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -30,18 +30,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="SWC.cpp" partName="SWC.cpp" path="/home/michael/Semantic-Web-Crawler/SWC/src/SWC.cpp" title="SWC.cpp" tooltip="SWC/src/SWC.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SWC/src/SWC.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3155" selectionTopPixel="1950"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="Code Dump" partName="Code Dump" path="/home/michael/Semantic-Web-Crawler/SWC/src/Code Dump" title="Code Dump" tooltip="SWC/src/Code Dump" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SWC/src/Code Dump"/>
-<editorState selectionHorizontalPixel="0" selectionLength="729" selectionOffset="1772" selectionTopPixel="1219"/>
+<editorState selectionHorizontalPixel="0" selectionLength="168" selectionOffset="3181" selectionTopPixel="1932"/>
 </editor>
 </editors>
 <views>
@@ -77,7 +72,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -261,127 +256,44 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SWC/src/SWC.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SWC/src/IO.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SWC/src/Database.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SWC/src/Code Dump"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SWC/src/Parser.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Regex Test/src/Regex Test.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SWC/src/IO.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SWC/src/regexreplace.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SWC/src/Code Dump"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SWC/src/Code Dump"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SWC/src/Code Dump"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SWC/src/Code Dump"/>
 </editors>
-<item historyLabel="Database.cpp" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Code Dump" index="3">
-<position info="not_deleted" x="1721" y="0"/>
-</item>
-<item historyLabel="Parser.h" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Code Dump" index="3">
-<position info="not_deleted" x="1721" y="0"/>
-</item>
-<item historyLabel="IO.cpp" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Code Dump" index="3">
-<position info="not_deleted" x="1721" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="829" y="1828"/>
-</item>
-<item historyLabel="Code Dump" index="3">
-<position info="not_deleted" x="1721" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="IO.cpp" index="1">
-<position/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="986" y="0"/>
-</item>
-<item historyLabel="IO.cpp" index="1">
-<position info="not_deleted" x="158" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="986" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="1208" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="885" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="2012" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="Regex Test.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Regex Test.cpp" index="5">
-<position info="not_deleted" x="485" y="0"/>
-</item>
-<item historyLabel="Regex Test.cpp" index="5">
-<position/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="Regex Test.cpp" index="5">
-<position/>
-</item>
-<item historyLabel="IO.cpp" index="6">
-<position info="not_deleted" x="158" y="0"/>
-</item>
-<item historyLabel="Regex Test.cpp" index="5">
-<position info="not_deleted" x="388" y="0"/>
-</item>
-<item historyLabel="SWC.cpp" index="0">
-<position info="not_deleted" x="657" y="0"/>
-</item>
-<item historyLabel="Regex Test.cpp" index="5">
-<position info="not_deleted" x="329" y="0"/>
-</item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="441" y="0"/>
 </item>
-<item historyLabel="Regex Test.cpp" index="5">
+<item historyLabel="Regex Test.cpp" index="1">
 <position info="not_deleted" x="351" y="131"/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="921" y="0"/>
 </item>
-<item historyLabel="Regex Test.cpp" index="5">
+<item historyLabel="Regex Test.cpp" index="1">
 <position info="not_deleted" x="351" y="131"/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="921" y="0"/>
 </item>
-<item historyLabel="regexreplace.h" index="7">
+<item historyLabel="regexreplace.h" index="2">
 <position/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="1070" y="0"/>
 </item>
-<item historyLabel="regexreplace.h" index="7">
+<item historyLabel="regexreplace.h" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="regexreplace.h" index="7">
+<item historyLabel="regexreplace.h" index="2">
 <position info="not_deleted" x="483" y="30"/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="1074" y="0"/>
 </item>
-<item historyLabel="Code Dump" index="8">
+<item historyLabel="Code Dump" index="3">
 <position info="not_deleted" x="1728" y="0"/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
@@ -402,23 +314,104 @@
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="3718" y="0"/>
 </item>
-<item historyLabel="Code Dump" index="8">
+<item historyLabel="Code Dump" index="3">
 <position info="not_deleted" x="1728" y="0"/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="3718" y="0"/>
 </item>
-<item historyLabel="Code Dump" index="8">
+<item historyLabel="Code Dump" index="3">
 <position info="not_deleted" x="1772" y="729"/>
 </item>
 <item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="3039" y="0"/>
 </item>
-<item historyLabel="Code Dump" index="8">
+<item historyLabel="Code Dump" index="3">
 <position info="not_deleted" x="1772" y="729"/>
 </item>
-<item active="true" historyLabel="SWC.cpp" index="0">
+<item historyLabel="SWC.cpp" index="0">
 <position info="not_deleted" x="3039" y="0"/>
+</item>
+<item historyLabel="Code Dump" index="4">
+<position info="not_deleted" x="1896" y="15"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="2972" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="2971" y="0"/>
+</item>
+<item historyLabel="Code Dump" index="4">
+<position info="not_deleted" x="1896" y="15"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Code Dump" index="4">
+<position info="not_deleted" x="1896" y="15"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Code Dump" index="5">
+<position info="not_deleted" x="3351" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="3687" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Code Dump" index="5">
+<position info="not_deleted" x="0" y="3686"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="1908" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="1827" y="0"/>
+</item>
+<item historyLabel="Code Dump" index="6">
+<position info="not_deleted" x="0" y="3686"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="2399" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="723" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="2138" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="1905" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="722" y="0"/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="2131" y="0"/>
+</item>
+<item active="true" historyLabel="SWC.cpp" index="0">
+<position info="not_deleted" x="475" y="7"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

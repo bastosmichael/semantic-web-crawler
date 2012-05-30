@@ -23,28 +23,37 @@
 #include <algorithm>   // remove_if()
 #include <cctype>      // isspace()
 #include <functional>  // ptr_fun <>
+#include <boost/regex.hpp>
 using namespace std;
 
 vector<string> page;
-vector<string> regex;
-vector<string> data;
 
 void downloadUrl (const char *path, string url, string urlhash);
 void loadPage(const char *p, string url, string urlhash);
-void parsePage(vector<string> page);
-void parseLine(string line);
+void parsePage(vector<string> page, string pattern);
+void parseLine(string line, string pattern);
 void processArguments(std::string inputs);
 void checkForCacheFolder();
 void generateUrlHash(std::string inputs);
-string delCharacter(string &line, string remove);
+void parseArgument(std::string argument);
+string delSpaces(string &str);
+void regexLine(string line, string pattern);
 
-int main(int argc, char *argv[]) {
-	checkForCacheFolder();
-    // Loop through each argument and print its number and value
-    for (int i=0; i < argc; i++){
-        processArguments(argv[i]);
+std::string match(const char *string, char *pattern) {
+// Adapted from: http://pubs.opengroup.org/onlinepubs/009695399/functions/regcomp.html
+    int    status;
+    regex_t    re;
+    regmatch_t rm;
+
+    if (regcomp(&re, pattern, REG_EXTENDED) != 0) {
+        return "Bad pattern";
     }
-    return 0;
+    status = regexec(&re, string, 1, &rm, 0);
+    regfree(&re);
+    if (status != 0) {
+        return "No Match";
+    }
+    return std::string(string+rm.rm_so, string+rm.rm_eo);
 }
 
 void checkForCacheFolder(){
@@ -55,24 +64,19 @@ void checkForCacheFolder(){
 }
 
 void processArguments(std::string inputs){
-	string pattern = "[^tpr]{2,}";
-	regex.push_back (pattern);
-	
 	if(inputs.find("SWC") != string::npos){
 		//Check for application argument ./SWC
 	} else if(inputs.find("http://") != string::npos || inputs.find("https://") != string::npos){
 		generateUrlHash(inputs);
-	} else if(inputs.find("block=") != string::npos){
-		
-	} else if(inputs.find("active=") != string::npos){
-		
-	} else if(inputs.find(".=") != string::npos){
-		string block = delCharacter(inputs, '.=');
-		regex.push_back (block);
-	} else if(inputs.find("pagination=") != string::npos){
-		
+	} else {
+		parseArgument(inputs);
 	}
-	parsePage(page);
+}
+
+void parseArgument(std::string argument){
+	cout << argument << endl;
+	parsePage(page, argument);
+
 }
 
 void generateUrlHash(std::string url){
@@ -99,10 +103,9 @@ void loadPage(const char *path, string url, string urlhash){
 		while (! read.eof() ) {
 			getline (read,line);
 			page.push_back (line);
-			//cout<<line<<endl;
+			cout<<line<<endl;
 	    }
 	    read.close();
-	    //parsePage(page);
 	} else {
 		downloadUrl(path,url,urlhash);
 	}
@@ -115,70 +118,69 @@ void downloadUrl (const char *path, string url, string urlhash){
 	loadPage(path,url,urlhash);
 }
 
-void parsePage(vector<string> page){
+void parsePage(vector<string> page, string pattern){
 	for (vector<string>::iterator line = page.begin();line != page.end();++line)
 	{
-		parseLine(*line,regex);
+		parseLine(*line, pattern);
 	}
 
 }
 
-void parseLine(string line, vector<string> regex){
-	
-	for (vector<string>::iterator pattern = regex.begin();pattern != regex.end();++pattern)
-	{
-	//cout << line << endl;
-	delCharacter(line,' ');
-	regexLine(line,*pattern);
-	}
+void parseLine(string line, string pattern){
+
+		delSpaces(line);
+		//const char *l;
+			//l=line.c_str();
+		//char *pat;
+		//	pat=pattern.c_str();
+		//std::cout << match(*l, *pat) << "\n";
+		//cout << l << endl;
+		regexLine(line, pattern);
+}
+
+string delSpaces(string &line)
+{
+	std::string::iterator end_pos = std::remove(line.begin(), line.end(), ' ');
+	line.erase(end_pos, line.end());
+	return line;
 }
 
 void regexLine(string line, string pattern){
-	regex_t reg;
-	regmatch_t matches[1];
+		regex_t reg;
 
-	regcomp(&reg,pattern.c_str(),REG_EXTENDED|REG_ICASE);
+			//string pattern = "[^tpr]{2,}";
 
-	if (regexec(&reg,line.c_str(),1,matches,0)==0) {
-	  //cout << "Match ";
-	  cout << line.substr(matches[0].rm_so,matches[0].rm_eo-matches[0].rm_so);
-	  //cout << " found starting at: ";
-	  //cout << matches[0].rm_so;
-	  //cout << " and ending at ";
-	  //cout << matches[0].rm_eo;
-	  //cout << " - " << line;
-	  cout << endl;
-	} else {
-	  //cout << "Match not found.";
-	  //cout << endl;
-	}
-	regfree(&reg);
-}
+			regmatch_t matches[1];
 
-void saveAsCSV(){
-	int mat[3][3] = {{1, 2, 3},
-	{4,5,6},{7,8,9}};
+			regcomp(&reg,pattern.c_str(),REG_EXTENDED|REG_ICASE);
 
-	int i, j;
-	mat2[3][3];
-	/*Write matrix to file*/
-	FILE *fp = fopen("matrix.txt", "w");
-	for(i=0; i<3; i++)
-	for(j=0;j<3; j++)
-	fprinf(fp, "%d\n", mat[i][j]);
-	fclose(fp);
-	/*Read matrix back from file*/
-	fp = fopen("matrix.txt", "r");
-	for(i=0; i<3; i++)
-	for(j=0;j<3; j++)
-	fscanf(fp, "%d", &mat2[i][j]);
-	fclose(fp);
+			if (regexec(&reg,line.c_str(),1,matches,0)==0) {
+			  //cout << "Match ";
+			  //cout << line.substr(matches[0].rm_so,matches[0].rm_eo-matches[0].rm_so);
+			  //cout << " found starting at: ";
+			  //cout << matches[0].rm_so;
+			  //cout << " and ending at ";
+			  //cout << matches[0].rm_eo;
+			  //cout << " - " << line;
+			  //cout << endl;
+			} else {
+			  //cout << "Match not found.";
+			  //cout << endl;
+			}
+			regfree(&reg);
+
 
 }
 
-string delCharacter(string &line, string remove)
-{
-	std::string::iterator end_pos = std::remove(line.begin(), line.end(), remove);
-	line.erase(end_pos, line.end());
-	return line;
+//int main(int ac, char **av) {
+    // e.g. usage: ./program abcdefg 'c.*f'
+    //std::cout << match(av[1], av[2]) << "\n";
+//}
+
+int main(int argc, char *argv[]) {
+	checkForCacheFolder();
+    for (int i=0; i < argc; i++){
+        processArguments(argv[i]);
+    }
+    return 0;
 }

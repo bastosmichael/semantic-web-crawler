@@ -5544,3 +5544,1938 @@ Finished building target: SWC
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:70:39: warning: multi-character character constant [-Wmultichar]
+../src/SWC.cpp: In function ‘void processArguments(std::string)’:
+../src/SWC.cpp:70:43: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+../src/SWC.cpp: In function ‘void parsePage(std::vector<std::basic_string<char> >)’:
+../src/SWC.cpp:121:24: error: too many arguments to function ‘void parseLine(std::string)’
+../src/SWC.cpp:35:6: note: declared here
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::vector<std::basic_string<char> >)’:
+../src/SWC.cpp:131:23: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+../src/SWC.cpp:132:25: error: ‘regexLine’ was not declared in this scope
+../src/SWC.cpp: In function ‘void saveAsCSV()’:
+../src/SWC.cpp:163:2: error: ‘mat2’ was not declared in this scope
+../src/SWC.cpp:168:30: error: ‘fprinf’ was not declared in this scope
+In file included from /usr/include/c++/4.6/algorithm:63:0,
+                 from ../src/SWC.cpp:23:
+/usr/include/c++/4.6/bits/stl_algo.h: In function ‘_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’:
+../src/SWC.cpp:181:78:   instantiated from here
+/usr/include/c++/4.6/bits/stl_algo.h:1104:9: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __value’
+/usr/include/c++/4.6/bits/stl_algo.h:1104:9: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h: In function ‘_RandomAccessIterator std::__find(_RandomAccessIterator, _RandomAccessIterator, const _Tp&, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’:
+/usr/include/c++/4.6/bits/stl_algo.h:4403:45:   instantiated from ‘_IIter std::find(_IIter, _IIter, const _Tp&) [with _IIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’
+/usr/include/c++/4.6/bits/stl_algo.h:1098:7:   instantiated from ‘_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’
+../src/SWC.cpp:181:78:   instantiated from here
+/usr/include/c++/4.6/bits/stl_algo.h:162:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:162:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:166:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:166:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:170:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:170:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:174:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:174:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:182:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:182:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:186:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:186:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:190:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:190:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/algorithm:63:0,
+                 from ../src/SWC.cpp:23:
+/usr/include/c++/4.6/bits/stl_algo.h: In function ‘_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’:
+../src/SWC.cpp:160:78:   instantiated from here
+/usr/include/c++/4.6/bits/stl_algo.h:1104:9: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __value’
+/usr/include/c++/4.6/bits/stl_algo.h:1104:9: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h: In function ‘_RandomAccessIterator std::__find(_RandomAccessIterator, _RandomAccessIterator, const _Tp&, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’:
+/usr/include/c++/4.6/bits/stl_algo.h:4403:45:   instantiated from ‘_IIter std::find(_IIter, _IIter, const _Tp&) [with _IIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’
+/usr/include/c++/4.6/bits/stl_algo.h:1098:7:   instantiated from ‘_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’
+../src/SWC.cpp:160:78:   instantiated from here
+/usr/include/c++/4.6/bits/stl_algo.h:162:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:162:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:166:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:166:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:170:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:170:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:174:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:174:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:182:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:182:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:186:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:186:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:190:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:190:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/algorithm:63:0,
+                 from ../src/SWC.cpp:23:
+/usr/include/c++/4.6/bits/stl_algo.h: In function ‘_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’:
+../src/SWC.cpp:160:78:   instantiated from here
+/usr/include/c++/4.6/bits/stl_algo.h:1104:9: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __value’
+/usr/include/c++/4.6/bits/stl_algo.h:1104:9: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h: In function ‘_RandomAccessIterator std::__find(_RandomAccessIterator, _RandomAccessIterator, const _Tp&, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’:
+/usr/include/c++/4.6/bits/stl_algo.h:4403:45:   instantiated from ‘_IIter std::find(_IIter, _IIter, const _Tp&) [with _IIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’
+/usr/include/c++/4.6/bits/stl_algo.h:1098:7:   instantiated from ‘_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >, _Tp = std::basic_string<char>]’
+../src/SWC.cpp:160:78:   instantiated from here
+/usr/include/c++/4.6/bits/stl_algo.h:162:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:162:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:166:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:166:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:170:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:170:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:174:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:174:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:182:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:182:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:186:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:186:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.6/bits/stl_algo.h:190:4: error: no match for ‘operator==’ in ‘__first.__gnu_cxx::__normal_iterator<_Iterator, _Container>::operator* [with _Iterator = char*, _Container = std::basic_string<char>, __gnu_cxx::__normal_iterator<_Iterator, _Container>::reference = char&]() == __val’
+/usr/include/c++/4.6/bits/stl_algo.h:190:4: note: candidates are:
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:66:1: error: expected declaration before ‘}’ token
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:26:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+../src/SWC.cpp: In function ‘void parseArgument(std::string)’:
+../src/SWC.cpp:70:4: error: ‘smatch’ is not a member of ‘std’
+../src/SWC.cpp:70:16: error: expected ‘;’ before ‘m’
+../src/SWC.cpp:71:4: error: ‘regex’ is not a member of ‘std’
+../src/SWC.cpp:71:15: error: expected ‘;’ before ‘e’
+../src/SWC.cpp:73:4: error: ‘regex_match’ is not a member of ‘std’
+../src/SWC.cpp:73:26: error: ‘m’ was not declared in this scope
+../src/SWC.cpp:73:29: error: ‘e’ was not declared in this scope
+../src/SWC.cpp:76:14: error: ‘std::smatch’ has not been declared
+../src/SWC.cpp:76:31: error: expected ‘;’ before ‘it’
+../src/SWC.cpp:76:47: error: ‘it’ was not declared in this scope
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:26:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+../src/SWC.cpp: In function ‘void parseArgument(std::string)’:
+../src/SWC.cpp:70:4: error: ‘smatch’ is not a member of ‘std’
+../src/SWC.cpp:70:16: error: expected ‘;’ before ‘m’
+../src/SWC.cpp:71:4: error: ‘regex’ is not a member of ‘std’
+../src/SWC.cpp:71:15: error: expected ‘;’ before ‘e’
+../src/SWC.cpp:73:4: error: ‘regex_match’ is not a member of ‘std’
+../src/SWC.cpp:73:26: error: ‘m’ was not declared in this scope
+../src/SWC.cpp:73:29: error: ‘e’ was not declared in this scope
+../src/SWC.cpp:76:14: error: ‘std::smatch’ has not been declared
+../src/SWC.cpp:76:31: error: expected ‘;’ before ‘it’
+../src/SWC.cpp:76:47: error: ‘it’ was not declared in this scope
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:26:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:26:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+Finished building: ../src/Storage.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/basic_regex.hpp:379: undefined reference to `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)'
+./src/SWC.o: In function `bool boost::regex_search<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::match_results<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:56: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+./src/SWC.o: In function `perl_matcher':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/perl_matcher.hpp:371: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:124:2: error: ‘boost’ has not been declared
+../src/SWC.cpp:124:15: error: expected ‘;’ before ‘exrp’
+../src/SWC.cpp:125:2: error: ‘boost’ has not been declared
+../src/SWC.cpp:125:45: error: expected primary-expression before ‘>’ token
+../src/SWC.cpp:125:47: error: ‘what’ was not declared in this scope
+../src/SWC.cpp:126:32: error: ‘exrp’ was not declared in this scope
+../src/SWC.cpp:126:37: error: ‘regex_search’ was not declared in this scope
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/basic_regex.hpp:379: undefined reference to `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)'
+./src/SWC.o: In function `bool boost::regex_search<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::match_results<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:56: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+./src/SWC.o: In function `perl_matcher':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/perl_matcher.hpp:371: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/basic_regex.hpp:379: undefined reference to `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)'
+./src/SWC.o: In function `bool boost::regex_search<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::match_results<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:56: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+./src/SWC.o: In function `perl_matcher':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/perl_matcher.hpp:371: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string)’:
+../src/SWC.cpp:123:8: error: overloaded function with no contextual type information
+../src/SWC.cpp:131:19: error: no post-increment operator for type
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/basic_regex.hpp:379: undefined reference to `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)'
+./src/SWC.o: In function `bool boost::regex_search<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::match_results<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:56: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+./src/SWC.o: In function `perl_matcher':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/perl_matcher.hpp:371: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:27:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:27:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+../src/SWC.cpp: In function ‘void parseArgument(std::string)’:
+../src/SWC.cpp:71:2: error: ‘regex’ was not declared in this scope
+../src/SWC.cpp:71:2: note: suggested alternative:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_fwd.hpp:60:48: note:   ‘boost::regex’
+../src/SWC.cpp:71:8: error: expected ‘;’ before ‘rgx’
+../src/SWC.cpp:72:2: error: ‘smatch’ was not declared in this scope
+../src/SWC.cpp:72:2: note: suggested alternative:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex.hpp:137:52: note:   ‘boost::smatch’
+../src/SWC.cpp:72:9: error: expected ‘;’ before ‘result’
+../src/SWC.cpp:73:20: error: ‘result’ was not declared in this scope
+../src/SWC.cpp:73:28: error: ‘rgx’ was not declared in this scope
+../src/SWC.cpp:73:31: error: ‘regex_search’ was not declared in this scope
+../src/SWC.cpp:73:31: note: suggested alternative:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:159:13: note:   ‘boost::regex_search’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/basic_regex.hpp:379: undefined reference to `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)'
+./src/SWC.o: In function `bool boost::regex_search<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::match_results<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:56: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+./src/SWC.o: In function `perl_matcher':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/perl_matcher.hpp:371: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from ../src/SWC.cpp:20:0:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex.h:22:28: fatal error: boost/cregex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+Finished building: ../src/Storage.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::assign(char const*, char const*, unsigned int)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/basic_regex.hpp:379: undefined reference to `boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int)'
+./src/SWC.o: In function `bool boost::regex_search<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >(__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::match_results<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags, __gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >)':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_search.hpp:56: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+./src/SWC.o: In function `perl_matcher':
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/perl_matcher.hpp:371: undefined reference to `boost::re_detail::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseArgument(std::string)’:
+../src/SWC.cpp:69:10: error: ‘match_results’ does not name a type
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘std::string match(const char*, char*)’:
+../src/SWC.cpp:46:4: warning: label ‘http’ defined but not used [-Wunused-label]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void processArguments(std::string)’:
+../src/SWC.cpp:63:25: error: ‘generateUrlHash’ was not declared in this scope
+../src/SWC.cpp:65:23: error: ‘parseArgument’ was not declared in this scope
+../src/SWC.cpp: In function ‘void parseArgument(std::string)’:
+../src/SWC.cpp:71:26: error: ‘parsePage’ was not declared in this scope
+../src/SWC.cpp: In function ‘void generateUrlHash(std::string)’:
+../src/SWC.cpp:88:21: error: ‘loadPage’ was not declared in this scope
+../src/SWC.cpp: In function ‘void loadPage(const char*, std::string, std::string)’:
+../src/SWC.cpp:103:31: error: ‘downloadUrl’ was not declared in this scope
+../src/SWC.cpp: In function ‘void parsePage(std::vector<std::basic_string<char> >, std::string)’:
+../src/SWC.cpp:117:27: error: ‘parseLine’ was not declared in this scope
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:134:22: error: cannot convert ‘std::string {aka std::basic_string<char>}’ to ‘const char*’ for argument ‘1’ to ‘std::string match(const char*, char*)’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘std::string match(const string*, char*)’:
+../src/SWC.cpp:50:15: error: request for member ‘c_str’ in ‘string’, which is of non-class type ‘const string* {aka const std::basic_string<char>*}’
+../src/SWC.cpp:55:44: error: cannot convert ‘const string* {aka const std::basic_string<char>*}’ to ‘const char*’ for argument ‘2’ to ‘int regexec(const regex_t*, const char*, size_t, regmatch_t*, int)’
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:135:10: error: no match for ‘operator*’ in ‘*line’
+../src/SWC.cpp:135:10: note: candidates are:
+/usr/include/c++/4.6/complex:381:5: note: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)
+/usr/include/c++/4.6/complex:390:5: note: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)
+/usr/include/c++/4.6/complex:399:5: note: template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:170:36: error: cannot convert ‘char*’ to ‘const string* {aka const std::basic_string<char>*}’ for argument ‘1’ to ‘std::string match(const string*, char*)’
+In file included from /usr/include/c++/4.6/string:54:0,
+                 from /usr/include/c++/4.6/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.6/bits/ios_base.h:43,
+                 from /usr/include/c++/4.6/ios:43,
+                 from /usr/include/c++/4.6/ostream:40,
+                 from /usr/include/c++/4.6/iostream:40,
+                 from ../src/SWC.cpp:9:
+/usr/include/c++/4.6/bits/basic_string.h: In static member function ‘static void std::basic_string<_CharT, _Traits, _Alloc>::_S_copy_chars(_CharT*, _Iterator, _Iterator) [with _Iterator = const std::basic_string<char>*, _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’:
+/usr/include/c++/4.6/bits/basic_string.tcc:142:6:   instantiated from ‘static _CharT* std::basic_string<_CharT, _Traits, _Alloc>::_S_construct(_InIterator, _InIterator, const _Alloc&, std::forward_iterator_tag) [with _FwdIterator = const std::basic_string<char>*, _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’
+/usr/include/c++/4.6/bits/basic_string.h:1692:56:   instantiated from ‘static _CharT* std::basic_string<_CharT, _Traits, _Alloc>::_S_construct_aux(_InIterator, _InIterator, const _Alloc&, std::__false_type) [with _InIterator = const std::basic_string<char>*, _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’
+/usr/include/c++/4.6/bits/basic_string.h:1713:58:   instantiated from ‘static _CharT* std::basic_string<_CharT, _Traits, _Alloc>::_S_construct(_InIterator, _InIterator, const _Alloc&) [with _InIterator = const std::basic_string<char>*, _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’
+/usr/include/c++/4.6/bits/basic_string.tcc:231:55:   instantiated from ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&) [with _InputIterator = const std::basic_string<char>*, _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’
+../src/SWC.cpp:60:56:   instantiated from here
+/usr/include/c++/4.6/bits/basic_string.h:382:6: error: no matching function for call to ‘std::char_traits<char>::assign(char&, const std::basic_string<char>&)’
+/usr/include/c++/4.6/bits/basic_string.h:382:6: note: candidates are:
+/usr/include/c++/4.6/bits/char_traits.h:244:7: note: static void std::char_traits<char>::assign(std::char_traits<char>::char_type&, const char_type&)
+/usr/include/c++/4.6/bits/char_traits.h:244:7: note:   no known conversion for argument 2 from ‘const std::basic_string<char>’ to ‘const char_type& {aka const char&}’
+/usr/include/c++/4.6/bits/char_traits.h:276:7: note: static std::char_traits<char>::char_type* std::char_traits<char>::assign(std::char_traits<char>::char_type*, std::size_t, std::char_traits<char>::char_type)
+/usr/include/c++/4.6/bits/char_traits.h:276:7: note:   candidate expects 3 arguments, 2 provided
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:134:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:134:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:134:38: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:134:12: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+../src/SWC.cpp:135:12: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+../src/SWC.cpp:136:26: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+../src/SWC.cpp:41:13: error:   initializing argument 1 of ‘std::string match(const char*, char*)’ [-fpermissive]
+../src/SWC.cpp:136:26: error: invalid conversion from ‘char’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:41:13: error:   initializing argument 2 of ‘std::string match(const char*, char*)’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:135:9: error: ‘regex’ does not name a type
+../src/SWC.cpp:138:41: error: ‘r’ was not declared in this scope
+../src/SWC.cpp:138:42: error: ‘regex_match’ was not declared in this scope
+../src/SWC.cpp:138:42: note: suggested alternative:
+/home/michael/Semantic-Web-Crawler/boost_1_49_0/boost/regex/v4/regex_match.hpp:94:13: note:   ‘boost::regex_match’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseArgument(char)’:
+../src/SWC.cpp:77:26: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+../src/SWC.cpp: In function ‘void parsePage(std::vector<std::basic_string<char> >, char)’:
+../src/SWC.cpp:123:27: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+In file included from /usr/include/c++/4.6/regex:35:0,
+                 from ../src/SWC.cpp:21:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:133:15: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:133:15: warning: variable ‘pat’ set but not used [-Wunused-but-set-variable]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:135:28: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:41:13: error:   initializing argument 2 of ‘std::string match(const char*, char*)’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:134:22: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:135:30: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+../src/SWC.cpp:41:13: error:   initializing argument 1 of ‘std::string match(const char*, char*)’ [-fpermissive]
+../src/SWC.cpp:135:30: error: invalid conversion from ‘char’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:41:13: error:   initializing argument 2 of ‘std::string match(const char*, char*)’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:133:14: error: uninitialized const ‘l’ [-fpermissive]
+../src/SWC.cpp:134:20: error: assignment of read-only variable ‘l’
+../src/SWC.cpp:136:26: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+../src/SWC.cpp:139:17: error: too few arguments to function ‘void regexLine(std::string, std::string)’
+../src/SWC.cpp:40:6: note: declared here
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:136:26: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/michael/Semantic-Web-Crawler/boost_1_49_0 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘void parseLine(std::string, std::string)’:
+../src/SWC.cpp:132:15: warning: variable ‘l’ set but not used [-Wunused-but-set-variable]
+../src/SWC.cpp:134:9: warning: unused variable ‘pat’ [-Wunused-variable]
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
