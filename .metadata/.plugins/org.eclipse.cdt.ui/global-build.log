@@ -7573,3 +7573,113 @@ Finished building target: SWC
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -I"/home/michael/Semantic-Web-Crawler/External Libraries/pcre-8.30/sljit" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -I"/home/michael/Semantic-Web-Crawler/External Libraries/pcre-8.30/sljit" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -I"/home/michael/Semantic-Web-Crawler/External Libraries/pcre-8.30/sljit" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -I"/home/michael/Semantic-Web-Crawler/External Libraries/pcre-8.30/sljit" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -I"/home/michael/Semantic-Web-Crawler/External Libraries/pcre-8.30/sljit" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -I"/home/michael/Semantic-Web-Crawler/External Libraries/pcre-8.30/sljit" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+Finished building: ../src/Storage.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+Finished building: ../src/Storage.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Michael Bastos</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://michaelbastos.com/wp-content/themes/hum/style.css" />
+<link rel="pingback" href="http://michaelbastos.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://michaelbastos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://michaelbastos.com/wp-content/plugins/easy-table-creator/css/easy_table_creator.css" />
+<link type="text/css" rel="stylesheet" href="http://michaelbastos.com/wp-content/plugins/easy-table-creator/css/tablesorter/style.css" />
+<link rel="alternate" type="application/rss+xml" title="Michael Bastos &raquo; Feed" href="http://michaelbastos.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Michael Bastos &raquo; Comments Feed" href="http://michaelbastos.com/comments/feed/" />
+<link rel='stylesheet' id='EG-Attachments_stylesheet-css'  href='http://michaelbastos.com/wp-content/plugins/eg-attachments/css/eg-attachments.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='GoogleAnalyticsAsyncStyle-css'  href='http://michaelbastos.com/wp-content/plugins/google-analytics-async/ga-async.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript'>try{jQuery.noConflict();}catch(e){};</script>
+<script type='text/javascript' src='http://michaelbastos.com/wp-content/plugins/easy-table-creator/js/easy_table_creator.js?ver=0.1'></script>
+<script type='text/javascript' src='http://michaelbastos.com/wp-content/plugins/easy-table-creator/js/jquery.tablesorter.min.js?ver=0.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://michaelbastos.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://michaelbastos.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+
+        
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', 'UA-4772504-2']);
+					_gaq.push(['b._trackPageview']);
+											_gaq.push(['b._trackPageLoadTime']);
+									
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+		<style type="text/css">
+	.mu_register #blog_description { width:100%; font-size: 24px; margin:5px 0; }
+</style>
+	<meta name="description" content="San Diego Open Source Consultant" />
+	<link rel="canonical" href="http://michaelbastos.com/" />
+</head>
+
+<body class="home blog single-author two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://michaelbastos.com/" title="Michael Bastos" rel="home">Michael Bastos</a></span></h1>
+				<h2 id="site-description">San Diego Open Source Consultant</h2>
+			</hgroup>
+
+			
+								<form method="get" id="searchform" action="http://michaelbastos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-643" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-643"><a href="http://michaelbastos.com">Home</a></li>
+<li id="menu-item-644" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644"><a href="http://michaelbastos.com/category/blogs/">Blogs</a>
+<ul class="sub-menu">
+	<li id="menu-item-650" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-650"><a href="http://michaelbastos.com/category/blogs/bastos-ventures/">Bastos Ventures</a>
+	<ul class="sub-menu">
+		<li id="menu-item-654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-654"><a href="http://michaelbastos.com/category/blogs/bastos-ventures/required-reading/">Required Reading</a></li>
+	</ul>
+</li>
+	<li id="menu-item-645" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-645"><a href="http://michaelbastos.com/category/blogs/bastos-cloud/">Bastos Cloud</a></li>
+	<li id="menu-item-647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-647"><a href="http://michaelbastos.com/category/blogs/bastos-media/">Bastos Media</a></li>
+	<li id="menu-item-649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-649"><a href="http://michaelbastos.com/category/blogs/bastos-tv/">Bastos TV</a>
+	<ul class="sub-menu">
+		<li id="menu-item-659" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-659"><a href="http://michaelbastos.com/category/blogs/bastos-tv/the-open-business/">the Open Business</a></li>
+		<li id="menu-item-655" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-655"><a href="http://michaelbastos.com/category/blogs/bastos-tv/tech-on-the-cheap/">Tech on the Cheap</a></li>
+	</ul>
+</li>
+	<li id="menu-item-646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-646"><a href="http://michaelbastos.com/category/blogs/bastos-live/">Bastos Live</a></li>
+	<li id="menu-item-648" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-648"><a href="http://michaelbastos.com/category/blogs/bastos-training/">Bastos Training</a></li>
+	<li id="menu-item-651" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-651"><a href="http://michaelbastos.com/category/blogs/personal/">Personal</a></li>
+</ul>
+</li>
+<li id="menu-item-668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-668"><a href="http://michaelbastos.com/category/books/">Books</a>
+<ul class="sub-menu">
+	<li id="menu-item-669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-669"><a href="http://michaelbastos.com/category/books/automate-wordpress/">Automate WordPress</a></li>
+	<li id="menu-item-653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-653"><a href="http://michaelbastos.com/category/books/going-open-source/">Going Open Source</a></li>
+	<li id="menu-item-652" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-652"><a href="http://michaelbastos.com/category/books/common-sense-seo/">Common Sense SEO</a></li>
+</ul>
+</li>
+<li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660"><a title="Everything You Need To Know" rel="author" href="http://michaelbastos.com/about/">About Me</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="http://michaelbastos.com/resume/">Resume</a></li>
+<li id="menu-item-667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="http://michaelbastos.com/skills-abilities/">Skills &#038; Abilities</a></li>
+<li id="menu-item-662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-662"><a href="http://michaelbastos.com/awards/">Awards</a></li>
+<li id="menu-item-666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="http://michaelbastos.com/public-speaking/">Public Speaking</a></li>
+<li id="menu-item-664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-664"><a href="http://michaelbastos.com/military-record/">Military Record</a></li>
+<li id="menu-item-663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-663"><a href="http://michaelbastos.com/contact-me/">Contact Me</a></li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+		<div id="primary">
+			<div id="content" role="main">
+
+			
+						<nav id="nav-above">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://michaelbastos.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-782" class="post-782 post type-post status-publish format-standard hentry category-required-reading">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/10/26/book-review-of-the-cash-flow-quadrant/" title="Permalink to Book Review of the Cash Flow Quadrant" rel="bookmark">Book Review of the Cash Flow Quadrant</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/10/26/book-review-of-the-cash-flow-quadrant/" title="5:48 pm" rel="bookmark"><time class="entry-date" datetime="2011-10-26T17:48:04+00:00" pubdate>October 26, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/10/26/book-review-of-the-cash-flow-quadrant/#respond" title="Comment on Book Review of the Cash Flow Quadrant"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I&#8217;ve been wanting to review this book for some time now and I hope I do it justice with my quick overview. I&#8217;ll try to keep it simple as the book sometimes sounds a lot like a late night get rich quick scheme but there are slices of nuggets in there that are worth picking it up. What I find interesting is that I started reading it thinking that it would be the least interesting in the Rich Dad series for me and turned out to be a gold mine in psychological perspectives and human to human interactions. Having grown up around many of the types of people this book explains, I thought I&#8217;d break down the most important concepts in the book.</p>
+<p>If you own a business than you need to read the &#8220;Cash Flow Quadrant&#8221; by Robert Kiyosaki which by far I think is one of the best psychological analysis of the business world as a whole. In the book he splits all of society up into four basic categories, Employees, Self-Employed, Business Owners and Investors. Without going into much of the books other more infomercial like components you need to understand this is actually a very astute comparison to make. I grew up in a very business minded home and was always taught to stay in school and get the piece of paper but think differently about what it is that I want to do with my life. The examples in the book came to life for me because I&#8217;ve seen every aspect of them first hand as you probably have as well, but it&#8217;s important to note that there is no right or wrong position to be in one of the 4 categories, you can be successful in all of them, but what is important is the mindset you have in the process.</p>
+<p>He goes on to explain that Employees use words like &#8220;benefits&#8221; and &#8220;security&#8221;. He says that what he thinks drives them sometimes is fear but I think it&#8217;s more a factor of stability, there&#8217;s nothing wrong with that if what you&#8217;re looking for is a stable life, it&#8217;s just most Employees don&#8217;t prepare for the lack of stability towards the end of their lives and usually hand their money over to a sales man who sells them on a bond or securities portfolio and that&#8217;s when most get into trouble. </p>
+<p>The Self employed in the book are like my father, again nothing bad about being a lone wolf or a specialist at something and working for yourself but for them money is not important, &#8220;independence&#8221; and &#8220;freedom&#8221; are. They are sometimes considered experts in their fields and like to do things their own way. Quality of work is much more important than money.</p>
+<p>Business owners look for the best Employee&#8217;s and the Self Employed and are the ones that look to hire them so that they can keep their minds busy with the occupation of thinking. This may seem wrong as many Self Employed people consider themselves Business Owners but the book gives an interesting difference between the two. If you can walk away from your business without having a hand in it letting managers and the people you&#8217;ve hired to handle the day to day concerns than you&#8217;re a Business Owner, a real Business Owner can leave his business for a year, and return to find it more profitable. They build a system that is capable of running on its own, with capable managers. There are not that many good Business Owners in the world that can do this successfully but the occupation of thinking that I was discussing before involves focusing your energies on new Products, business concepts and ideas of course. </p>
+<p>Investors make money with money. They don&#8217;t have to work because their money is working for them. This is how the book says &#8220;great wealth is made&#8221; but most people aren&#8217;t looking for that so it really doesn&#8217;t matter. To those that are but have never successfully gotten to that point, it&#8217;s their way of thinking that tends to keep them from being able to achieve it, like a Self Employed person wanting to make millions when they won&#8217;t hire anyone else, or the Employee hoping to invest in the stock market all the while someone is collecting fees for every stock purchased or month gone by. If wealth is the number of days one can survive without physically working and still maintain their standard of living, then investors can simply do nothing and their grandchildren will still be provided for. Some investors are considered employees, but only in their own corporations and for tax reasons.</p>
+<p>If you haven&#8217;t had a chance to read it, pick it up on Amazon for cheap or get the audio book, it&#8217;s well worth the read to understand at a psychological level how people in business really think and what drives them.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-ventures/required-reading/" title="View all posts in Required Reading" rel="category tag">Required Reading</a>			</span>
+									
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/10/26/book-review-of-the-cash-flow-quadrant/#respond" title="Comment on Book Review of the Cash Flow Quadrant"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-782 -->
+
+				
+					
+	<article id="post-779" class="post-779 post type-post status-publish format-standard hentry category-bastos-ventures">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/10/26/lone-wolf-syndrome/" title="Permalink to Lone Wolf Syndrome" rel="bookmark">Lone Wolf Syndrome</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/10/26/lone-wolf-syndrome/" title="5:43 pm" rel="bookmark"><time class="entry-date" datetime="2011-10-26T17:43:32+00:00" pubdate>October 26, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/10/26/lone-wolf-syndrome/#respond" title="Comment on Lone Wolf Syndrome"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>With the success of one man tech companies like InstaPaper, there is this surge of desire within the Startup Community to go at projects alone and to not hire any employees at all. I think that is the desire of everyone who starts a business and or goes into business for themselves, this wish to not have to deal with employees and business partners while still being successful. Growing up my father use to always tell me that &#8220;if you can&#8217;t hire someone to do the job right, you might as well do it yourself.&#8221; This works for many people but here is where I caution those of you looking at keeping your startup a one man show and why it&#8217;s best to remember that it&#8217;s not having business partners and employees that&#8217;s the problem, it&#8217;s having the wrong partners and employees that kills Startups.</p>
+<p>If you own a business than you need to read the &#8220;Cash Flow Quadrant&#8221; by Robert Kiyosaki which by far I think is one of the best psychological analysis of the business world as a whole. In the book he splits all of society up into four basic categories, Employees, Self-Employed, Business Owners and Investors. Without going into much of the books other more infomercial like components you need to understand this is actually a very astute comparison to make. I grew up in a very business minded home and was always taught to stay in school and get the piece of paper but think differently about what it is that I want to do with my life. The examples in the book came to life for me because I&#8217;ve seen every aspect of them first hand as you probably have as well, but it&#8217;s important to note that there is no right or wrong position to be in one of the 4 categories, you can be successful in all of them, but what is important is the mindset you have in the process.</p>
+<p>He goes on to explain that Employees use words like &#8220;benefits&#8221; and &#8220;security&#8221;. He says that what he thinks drives them sometimes is fear but I think it&#8217;s more a factor of stability, there&#8217;s nothing wrong with that if what you&#8217;re looking for is a stable life, it&#8217;s just most Employees don&#8217;t prepare for the lack of stability towards the end of their lives and usually hand their money over to a sales man who sells them on a bond or securities portfolio and that&#8217;s when most get into trouble. </p>
+<p>The Self employed in the book are like my father, again nothing bad about being a lone wolf or a specialist at something and working for yourself but for them money is not important, &#8220;independence&#8221; and &#8220;freedom&#8221; are. They are sometimes considered experts in their fields and like to do things their own way. Quality of work is much more important than money.</p>
+<p>Business owners look for the best Employee&#8217;s and the Self Employed and are the ones that look to hire them so that they can keep their minds busy with the occupation of thinking. This may seem wrong as many Self Employed people consider themselves Business Owners but the book gives an interesting difference between the two. If you can walk away from your business without having a hand in it letting managers and the people you&#8217;ve hired to handle the day to day concerns than you&#8217;re a Business Owner, a real Business Owner can leave his business for a year, and return to find it more profitable. They build a system that is capable of running on its own, with capable managers. There are not that many good Business Owners in the world that can do this successfully but the occupation of thinking that I was discussing before involves focusing your energies on new Products, business concepts and ideas of course. </p>
+<p>Investors make money with money. They don&#8217;t have to work because their money is working for them. This is how the book says &#8220;great wealth is made&#8221; but most people aren&#8217;t looking for that so it really doesn&#8217;t matter. To those that are but have never successfully gotten to that point, it&#8217;s their way of thinking that tends to keep them from being able to achieve it, like a Self Employed person wanting to make millions when they won&#8217;t hire anyone else, or the Employee hoping to invest in the stock market all the while someone is collecting fees for every stock purchased or month gone by. If wealth is the number of days one can survive without physically working and still maintain their standard of living, then investors can simply do nothing and their grandchildren will still be provided for. Some investors are considered employees, but only in their own corporations and for tax reasons.</p>
+<p>I went through all of this to explain that it&#8217;s okay to be a lone wolf developer and there are some cases like in InstaPaper&#8217;s situation where you can make it big and have millions of users generating millions of dollars as only one person. Yet we should see those cases as the exception to the rule and not the rule itself. If own a company and want to grow then put all your focus on finding the right people for the right positions and not just hiring to fill a position. Some of the greatest business stories of all time seem to show a single man with a single business mission but those individuals in most cases were smart enough to surround themselves with the people necessary to do the job right and allowed them time to think and strategize the opportune direction for their companies.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-ventures/" title="View all posts in Bastos Ventures" rel="category tag">Bastos Ventures</a>			</span>
+									
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/10/26/lone-wolf-syndrome/#respond" title="Comment on Lone Wolf Syndrome"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-779 -->
+
+				
+					
+	<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-bastos-ventures tag-business tag-company tag-google tag-think">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/08/20/why-your-business-needs-to-think-like-google/" title="Permalink to Think Like Google" rel="bookmark">Think Like Google</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/08/20/why-your-business-needs-to-think-like-google/" title="9:03 pm" rel="bookmark"><time class="entry-date" datetime="2011-08-20T21:03:50+00:00" pubdate>August 20, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/08/20/why-your-business-needs-to-think-like-google/#respond" title="Comment on Think Like Google"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>In Jeff Jarvis&#8217; 2009 book, &#8220;What Would Google Do?&#8221;, he presents the case that companies like Google are not merely creating a new way to use the Internet, but instead are revolutionizing how businesses think and work rocking many industries to their very core. My wife and I walked into Picture People in order to take some photos of my wife&#8217;s family; we had a great time during the photo shoot. The camera lady was very energetic and though she earned only minimum wage, they had taken the time to train her and teach her how to do her job well. Then came time for us to select the pictures, we fell in love with all of them. When we looked over the prices, I realized we could not buy a single picture for less than twenty dollars. I explained to the young camerawoman that she did not have to print out the half dozen large photos and place them in frames, for we would be buying only a few. Then she told me the craziest thing; she said that her company policy was to print everything out even if I was not planning to buy it. The young lady would be fired if she did not print and setup the frames, each costing around $200. I even thought if the image is that expensive to buy, then why is it so cheap for Picture People to print it and then throw it away if I do not buy it. This simple policy of waste and sales is the nature of our current corporate culture, one that corporations believe is the best strategy to trick or convince their customers into buying their products and services. Google differs from most other corporations in that it does not adopt this business model.</p>
+<p>Inefficiency and mass thinking is like a cancer that is eating its way through modern businesses; many small companies as well as Fortune 500 enterprises operate no differently than the big government bureaucracies which they so adamantly rally against. Businesses do and can still make money the old way, but if they are to survive in the next ten, fifteen or twenty years, they must adapt to a different way of thinking. If they do not do so, companies run the risk of having their businesses cannibalized from the ground up by smarter, faster and more open competitors. Google&#8217;s way of doing business has changed the rules and allowed new and old corporations to cannibalize themselves and revolutionize their way of thinking for the better.</p>
+<p>The first of many issues plaguing corporate culture is Customer Service. The relationship between customer and company has changed for the worst over the last few decades and we seem to think of it as progress. Small business imitate large corporations in everything they do including how they handle customer service because they believe that it will bring them similar levels of success. Whether small or large, companies cannot afford to put a customer on hold for long periods of time no matter how much they continue to tell them that &#8220;your call is important to us!&#8221; As the internet has shown, people are looking to interact with these companies, to tell them what they want from those companies; the question is are they ready to listen to their customers? Give the customer control of your product or service, and they will use it for the better to help you create value in your company. If one listens to the users and cherishes their ideas, even the bad ones one will succeed.</p>
+<p>The advantages to giving control is that the worst customer can become a best friend. Dell Computers ran into some problems a while back when they where first known as having the best customer service in the industry. Yet when random blogs began to pop up chanting the atrocities of Dell&#8217;s Customer service department the company ignored it, thinking like many do in old media circles that if peope do not give it credence it will just go away. Yet the internet has freed the customer to speak out against a large organization and for everyone to have a shared discussion of any company together online. The more the company ignored it, the worse the problem became, until finally, when users did a search for Dell on Google, a popular site called &#8220;Dell Sucks&#8221; became number two on the search results. With the advent of social networking sites like Twitter and Facebook, companies are scrambling to learn how to use them to the most advantage. Dell immediately told their customer service staff to look on every page and every blog for problems and ordered them to start answering customer concerns. Many companies would claim that they do not have the man power to do such searches and answer every customer problem online. However if they tried, they would recognize that it is possible to do so. Dell&#8217;s customers were already having a conversation about them; it was up to Dell if they wanted to join that conversation.</p>
+<p>The second advantage is that the best customer is now the best partner. The best example of this is Google&#8217;s Gmail service; they could have launched it out like so many other Email providers like Yahoo or Hotmail, but they kept it in Beta (testing version) for nearly five years before they even offered it as a product. They handed control of the service over to their users for free and got so much feedback that it is now one of the most powerful webmail clients used by enterprises world wide. The critics would say that it is great if one is offering a free product to people, but what does one do when people have to charge their customers. Salesforce.com charges their business customers for access to a platform they built and they themselves use. Their business is Customer Resource Management and they do it well, if there is something that their customers need, they immediately implement it and offer that feature to all their other customers without a problem. They do this by creating an internal network for their customers to communicate with each other and ultimately do business amongst themselves.</p>
+<p>In the previous case we saw with Picture People, I was a loyal customer, I loved their product and their service, but when I told them not to print all those photos, they did not listen to me because they felt they knew better. Picture People&#8217;s business belief is that if they force their employees to do it, the customer will fall in love with it and want to take it regardless of the price. Not to say that some do not but it is a waste and probably not very profitable. Plus the picture I take there is Copyrighted so that means I cannot make my own copies of a picture of myself. Why cannot I take this picture and post it on Facebook or Twitter? What makes them think that I am going to come back to them for reprints if it costs me a fortune to do so and what gives them the gall to make me feel like a criminal for doing it myself. If Picture people made the customer a partner and allowed them to post their pictures for the world to see, it may gain more customers. My love for their product should be their greatest asset, not their chance to nickel and dime me for every cent. In a world with so much choice, customers will no longer be content with a business&#8217; half hearted attempts at customer service; one must go above and beyond for their business.</p>
+<p>The second solution is that business needs to look at is the way it views the new economy. Small is the new big. Large corporations with hundreds of employees is too costly when one factors in Union Worker Costs and employment benefits. A company must manage abundance and not scarcity. When Adams wrote the book Wealth of Nations he explained that scarcity raises prices and thus is what they need as a business man to look for. Airplanes have a limited number of seats so they can charge more for those seats, Theaters have a limit of people that they can have in one movie so they charge more based on the number of people who want to see a film. In a world where a start up company can compete with a Fortune 500 in a level playing field, it pays for a company to stay small both for their clients and their share holders. Businesses need to think distributed in that they must share and network with others and not hoard for themselves. Instead of wanting the customer to come to the business, go to the customer. The news paper should look for its local bloggers, invite them to write on their print paper. Websites in exchange would promote the newspaper&#8217;s own website and content. Many newsmen will say that this cannot be done, that their profit margins will be too low to support the paper, the solution is to gut the paper. It is better that they canabalize their own business and not allow a competitor to do so. They should not see Bloggers as a threat but instead view them as a valid cheap resource for news stories that senior news men can view and edit if necessary. The news papers can also turn over their ad services to Google allowing it to do find their advertisers for them so that they can focus on what they do best, find the news. The more a business focuses on its area of expertise, the more Google will search them on that content and make them the experts on the subject.</p>
+<p>The first advantage of new economy is the ability to rid corporations of the inefficiencies in business and focus only on what will make the business profit. In the case of Picture People, their inability to be efficient will probably be their downfall, a better and cheaper photo place will do a better job and take them down much like they took down Olen Mills. Google&#8217;s view is that one needs to manage abundance of information and not control scarcity of what the customer does not know, instead of linking to select websites with guarded information, Google search is built to get better as they get more sites on the internet in order to be able to search them and give their user a more concise answer to the question. Nothing that is done at Google can be done without data, there are no hunches at the board room. No single executives pics the product because they think it is a good idea. If an employee has an idea, they must come to the boss with hard data to back up that idea. If they want to make a change to a site, they run tests of different designs and see which customers found easier to navigate. If they want to create a new product they do Beta runs for customers to give them feedback that then they can present to the CEO. If one cannot come to the boardroom without the data to back up everything they want to do then they do not get to present it. If one does then the board votes on what they feel based on the data shows the most promise. Many will say that this is an absurd way to do business, that employees should be doing their jobs and not collecting random amounts of meaningless data on something as random as a website change, yet Google has proven itself a leader in innovation at every turn because of this method. They manage their abundance by allowing their customers and users to get more and more data back to them so that they can then create a better product.</p>
+<p>The second advantages businesses must remember is that we now live in the gift economy, free as a business model. Everyone of Google&#8217;s products is free in some way shape or form, they make their money off of advertisements that are geared towards the niche needs of their users. So the better Google gets at offering ads to niche markets, the more money Google gets from it is advertisers. Walmart has destroyed man small businesses who sold the same product as they did and at a much more expensive price, they sell mainly to mass market needs and can control their prices in order to wipe out the competition. Any company wishing to compete against the Walmart&#8217;s of the future must think Niche, they must offer products that one cannot find at the mega stores thus creating a niche economy that they lead and own. The mass market is dead, the economy of niches is the new paradigm. A boot maker in Texas uses Google to sell his $5000 boots online, he only sells to a select set of customers that find him based on his niche market and with the help of Google sells hundreds of these per month. This niche product will not be found on Walmart shelves any time soon, but ask the boot maker if he is complaining? Remember Picture People, their absurd prices for their photos prompted me to realize that if they changed their business model they could increase their customers and grow their value. Instead of Copy-writing the photos they take, offer them for free online. Charge a hosting fee after the pictures have been taken that allows their customers to go online and pull the pictures from. They know their customers will want to go to Walmart or other Photo sites to print their pictures so offer them that as a service. Give them the ability to purchase through Walmart and make a few cents on the dollar in the long run. Allow the customer to post the pictures on their Facebook or Flickr accounts so that they can share it with everyone and thus promoting the business more. Do not hold the customers to one&#8217;s standards but instead allow them to create their own and make money in the process.</p>
+<p>Most businesses would look at this and think it is absurd, &#8220;I sell a product&#8221; the say &#8220;not a service or a website,&#8221; Yet one does not always to see free as something business offers their customers but it can also be a means to learn from them as well as their employees. Google offers a 20% free project for their workers, this means that during an 8 hour day, employees are allowed one and a half hours to work on their dream project or innovation. Google benefits from this time because almost all of the projects invented during this 20% become full time Google products later on. Everything from Google Maps to Gmail was once someone&#8217;s 20% and is the lifeline of Google&#8217;s innovation. This also creates employee love for their work and most will spend their free unpaid time working on the project in an attempt to get it out there. Google gets this kind of work almost for free because it gives rather than takes from their employees and customers the ability to work on their dream projects. This is the new Google economy that every business must understand, the ability for businesses to stop marketing to the mass and create products that will still be found and sold in a large way but can be geared at a certain audience with specific tastes and loves.</p>
+<p>Ultimately there are many more things that one can do to make their business more like Google, but the key is openness and throwing off the previous notions of success in mass in exchange for customer loyalty and brand honesty. If a business gives their customers control of the product, they will make it their own and love it, the final decision is still in the company&#8217;s hand but they can ensure success by welcoming the customer into the conversation more. Businesses need to remember that their customer does not have to come to them to have a controlled discussion of their products or services, the business must go to the customer by listening to their feedback and going where they are. The customers are already having a conversation about the product, the business just needs to find out where that discussion is going on and join in on that network. They also need to create a platform for the customer to work with and build on, this creates customer loyalty and brand respect. Finally a business must join the new economy by not over charing their customers for what only they can provide but instead offering them a free or low cost solution where the customer can do what they want and the business can manage the abundance from it. Using free as a business model is important whether one is implementing a free time for their employees to innovate or are offering a free service to the customer in exchange for data, customers and employees can go somewhere else for what one has to offer them, give them a good enough reason to stay. Google&#8217;s way of doing business has and will revolutionize every industry on the planet. With the ability to instantly gather and sort information steadily growing and getting better, we will soon not be able to run our businesses without these principles managing everything we do.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-ventures/" title="View all posts in Bastos Ventures" rel="category tag">Bastos Ventures</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/business/" rel="tag">business</a>, <a href="http://michaelbastos.com/tag/company/" rel="tag">company</a>, <a href="http://michaelbastos.com/tag/google/" rel="tag">Google</a>, <a href="http://michaelbastos.com/tag/think/" rel="tag">think</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/08/20/why-your-business-needs-to-think-like-google/#respond" title="Comment on Think Like Google"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-1 -->
+
+				
+					
+	<article id="post-591" class="post-591 post type-post status-publish format-standard hentry category-bastos-cloud tag-conference tag-san-diego tag-sponsor tag-technology tag-wordcamp">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/07/15/why-i-decided-to-sponsor-a-technology-conference-in-san-diego/" title="Permalink to Sponsoring WordCamp SD" rel="bookmark">Sponsoring WordCamp SD</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/07/15/why-i-decided-to-sponsor-a-technology-conference-in-san-diego/" title="4:07 pm" rel="bookmark"><time class="entry-date" datetime="2011-07-15T16:07:58+00:00" pubdate>July 15, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/07/15/why-i-decided-to-sponsor-a-technology-conference-in-san-diego/#respond" title="Comment on Sponsoring WordCamp SD"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>My involvement with WordCamp San Diego started in late 2009, I had been using the WordPress platform for some time as a quick and easy to set up front end for all the back end projects I had been involved with at the time. As an Open Source developer and proponent I had wanted to make sure that I used only OSS tools and WordPress had the largest and most active design and user base I could find at the time. For some time I had wanted to attend a WordCamp event but couldn&#8217;t due to school and work obligations so I went out searching to start one here in San Diego. At the time nothing was listed on <a href="http://wordcamp.org" target="_blank">WordCamp.org</a> so after talking to the guys at Automattic, they got me in touch with Dre Armeda of <a href="http://cubictwo.com/" target="_blank">Cubic Two</a> who was working on getting an organizing committee together to bring WC to SD.</p>
+<p>I was involved with the organizing committee until late 2010 when I had to scale back my involvement due to the birth of my son Noah and asked them to welcome in a great organizer in my place named Phelan Riessen from <a href="http://digithrive.com/" target="_blank">Digithrive</a> who had been involved in bringing other events to San Diego like Bar Camp and Drumbeat. The entire organizing committee did a great job planning and preparing for the event and I have to give them props for putting together a 200+ person event that was sold out in less than a week so as soon as Sponsorship packages went up I made sure to show my support for this wonderful endeavor.</p>
+<p>The reason why I bring all of this up is that I think it&#8217;s important for us as a community to support these kind of events whenever we can. Not just for because it makes great business sense (WordCamps are corporately sponsored but not advertiser focused) but because it&#8217;s just good common sense for the general tech community at large. San Diego is growing in the area of small technology startups and if we who are in the technology field already don&#8217;t put our resources behind it when it makes sense for us then we run the risk of loosing all the talent and drive to other growing tech hubs like Austin or New York. Yes, San Diego is mostly a military contract town and as a developer I could make way more getting hired by a large government contractor then I would by creating a startup, yet cities grow and die by their innovations and innovators or lack there of. I&#8217;m only one person and am limited in what I can do through partnerships and other deals, but I&#8217;m proud of San Diego&#8217;s technology sector and think if we put our focus on developing talent first and keeping it here second through opportunity, we all benefit.</p>
+<p>Back in 2009 I created a Technology incubator called <strong><a href="http://bastosventures.com/" target="_blank">Bastos Ventures</a></strong> that has grown well over the last few years, we already have a few projects under our belts and are always on the look out for new partners and ideas.  Bastos Ventures just recently launched <strong><a href="http://bastoscloud.com" target="_blank">Bastos Cloud</a></strong> as a quick and easy fully featured WordPress cloud service for small businesses and is my main property sponsoring the event. We give you full control over your content and site setup. You can build a website or create a business in minutes and we let you try it out for yourself long before you spend a dime. Seriously. I&#8217;ll be at SDSU for the first Annual <a href="http://2011.sandiego.wordcamp.org/" target="_blank">WordCampSD</a> event on Saturday July 16th 2011 and I hope to see you all there. Look for me or hit me up if you want to meet and talk by emailing me at <a href="mailto:michael@bastosventures.com">michael@bastosventures.com</a> or find me on twitter <a href="http://twitter.com/bastosmichael" target="_blank">@bastosmichae</a>l.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-cloud/" title="View all posts in Bastos Cloud" rel="category tag">Bastos Cloud</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/conference/" rel="tag">conference</a>, <a href="http://michaelbastos.com/tag/san-diego/" rel="tag">San Diego</a>, <a href="http://michaelbastos.com/tag/sponsor/" rel="tag">sponsor</a>, <a href="http://michaelbastos.com/tag/technology/" rel="tag">technology</a>, <a href="http://michaelbastos.com/tag/wordcamp/" rel="tag">WordCamp</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/07/15/why-i-decided-to-sponsor-a-technology-conference-in-san-diego/#respond" title="Comment on Sponsoring WordCamp SD"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-591 -->
+
+				
+					
+	<article id="post-577" class="post-577 post type-post status-publish format-standard hentry category-common-sense-seo tag-common-sense tag-marketing tag-seo tag-start">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/06/23/what-can-i-do-now-to-start-marketing-my-business-online/" title="Permalink to Common Sense SEO Part 6: Start Now" rel="bookmark">Common Sense SEO Part 6: Start Now</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/06/23/what-can-i-do-now-to-start-marketing-my-business-online/" title="9:13 pm" rel="bookmark"><time class="entry-date" datetime="2011-06-23T21:13:07+00:00" pubdate>June 23, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/06/23/what-can-i-do-now-to-start-marketing-my-business-online/#respond" title="Comment on Common Sense SEO Part 6: Start Now"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Now that you&#8217;ve read all of the first five topics of <a title="Common Sense SEO Introduction" href="http://michaelbastos.com/2010/09/14/why-you-need-common-sense-when-doing-your-seo/">Common Sense SEO</a>, the question that should be asked is what can I do now to get started right away. First you should remember to start on something now and iterate as you need to, planning only gets you so far if you don&#8217;t have something to test in the process, that&#8217;s just the developer in me speaking though. You need to get a few simple things off the ground first for your business while you plan out your content etc, want to make sure that your companies office is listed on <a href="http://google.com/places" target="_blank">Google Places</a>, this is sort of like Google&#8217;s version of the yellow pages and is one of the first results triggered if someone does a search for your company in your area as well as gives them a map of where you are at.</p>
+<p>Make sure that you guys are listed on every free ratings site possible including Yelp and others, don&#8217;t pay for this kind of service from companies like Yellow Pages and other, there are plenty free popular sites out there that your money will be better spent elsewhere. If you have employees that deal with your customers, tell them to ask the customer to rate or recommend you guys on Yelp, LinkedIn, Google Places, and all the other sites you&#8217;ve registered on, give them an easy to remember web address forwarder to link directly to where you want them to go like yourwebsite.com/ yelp or yourwebsite.com/google etc, having a page like yourwebsite.com/recommend will help save your customer&#8217;s time and effort.</p>
+<p>Having had their website on the web for many years is a plus in terms of presence so if you don&#8217;t have a site yet, register one right away, if you have an older site than keep it online. With a little bit of updating and some hours of reading you can disrupt your industry quickly and easily using the web so don&#8217;t feel like you have to first plan everything out and then put up a site. From here you have two directions that you can take here on out.</p>
+<p>If your efforts are individual (aka you are a salesman or employee working in a big company) and you need to focus on making personal sales or doing your own job to market the firm but have little to no say on the direction that your company takes from a marketing strategy, then you&#8217;ll want to focus on making social contacts with potential buyers and networking your personal brand as you represent your firm out in public.</p>
+<p>Your personal brand is you, and whether you stay at your current company or move on to something else marketing your personal brand now will pay off no matter where you are at, I would look for and buy yourname.com or something similar to use as your personal resume/portfolio/blog/or whatever the hell you want kind of site for down the road as well as see if you can get @yourname on twitter or a facebook fan page for keeping in touch with business contacts on Facebook. LinkedIn is a must if you work more in Business to Business industry and I&#8217;ll talk about that more next.</p>
+<p>If your target customers are businesses than you need to focus almost all your efforts on LinkedIn, it&#8217;s okay to have a Facebook page or twitter account for your company that you can push but you main focus should be creating a LinkedIn Company Profile pages and encourage anyone who works at your firm to join and add themselves to it. You then look for who your target audience is, in my case I look mainly for firms with large office spaces and target them first making sure that I add any contact I make on the street to my LinkedIn account. This is not about the quick sale but rather relationship building.</p>
+<p>If I&#8217;m a consumer based company than my individual marketing will be more directed at making personal sales online, take the initiative and setup on your personal site stuff that you think your company should or could use on their site, use your personal brand to test ideas and strategies for your company and then when they become successful you can present it to your boss as a marketable idea, if your company sees that you took the initiative and made sales they should respect you for thinking outside the box, if they fire you or reprimand you for marketing outside of &#8220;company site&#8221; then you should quit and go find a better job at a company that actually understands marketing. Too many firms outsource their marketing efforts which to me is silly and down right outdated, after all who better to sell your product or service, then the very people who make it and use it themselves.</p>
+<p>If you&#8217;re company is small enough to where they are looking to you to help them better their overall internet strategy then you should put your focus on not just the networking, though this is important as well, but rather on the look, feel and service that your company can provide online. This will bring in business more than anything as it will tell people that you understand how to do business online and plan on being around for a long while.</p>
+<p>This strategy isn&#8217;t for everyone but if your company can afford it then it should also set aside an ad budget for Google Adwords, if they haven&#8217;t already set aside money for this, they should do this before they pay for any other kind of advertising including print and mailers. You&#8217;ll also need to make sure that whatever the ad words are connected to, aka a website or a form are able to generate leads for your firm and simply not just linking to your companies website. You loose money that way when you get someone to come to your site and don&#8217;t smack them with the ability to do something once they get there.</p>
+<p>The Google Adwords keyword system as I explained before is sort of like an auction based marketplace so figuring out which work best for your company to increase sales is a full time job as one of my own family members has learned over the years. The next big thing in all honesty is to convince your bosses to redo their website, this is a point of contention I&#8217;ve had with people who think that their designs are fine but my thought process is that if your site looks like something from the 90&#8242;s then you as a company looks old and only certain types of people will want to do business with you. I would most overwhelmingly suggest WordPress as a platform for any business simply because it&#8217;s easy to use once you learn it and is versatile for anything you want to do.</p>
+<p>You can hire someone to build you a custom design or I would also suggest you check out a sites like <a href="http://themeforest.net/category/wordpress" target="_blank">ThemeForest</a>, I spend hours looking at designs which is one of the reasons I got out of the design business a long time ago. Way too much effort for little pay when there are guys guys out there that can do a much better job for less. Taking a standard good looking theme and changing it out is easy enough for anyone to do once you find one that fits your need.</p>
+<p>Once on the WordPress platform there is a million different things that your company can do to engage people on their website off the shelf, allow customers to pay invoices online directly on your website, allow auto generated quotes based off customer submitted information so that they don&#8217;t have to wait for someone to call them back with a quote or email them etc.</p>
+<p>I&#8217;ve seen companies use WordPress for everything from allowing customer to login with an account and schedule the best times to have something done based on their schedule or allowing them to expand the company by franchising the technology they are using off the same website to different regions of the country, the sky is the limit.</p>
+<p>There are tons of more stuff you can and should do to help promote your company but this is a start, all the items I mentioned in this chapter are things you can do now while you plan out your strategy and start to put your focus on what really matters for your business, making money online. Much of this work is do once and reap the benefits later kind of stuff so putting the effort into setting it up will pay for itself down the road if you&#8217;re patient and know what you&#8217;re doing.</p>
+<p>One book I would ask you to read above all else is &#8220;What Would Google Do&#8221; by Jeff Jarvis, one of the best books for understanding how to properly think through your business model in today&#8217;s connected world and it outlines what works as well as what doesn&#8217;t. As a developer my life dictates that if I have something to do in mind, that I start doing it now and iterate as I need to. This book is a great example as I set out to format everything I knew about marketing online and will continuously change it as things change and features or methods change trying to give you the most common sense approach to doing this on the web.</p>
+<p><strong><a title="Common Sense SEO Part 5: Analysis" href="http://michaelbastos.com/2010/09/15/how-do-i-analyse-my-sites-seo-and-compare-it-to-the-competition/">&lt;&lt; Read Previous Post: Common Sense SEO Part 5: Analysis</a></strong></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/books/common-sense-seo/" title="View all posts in Common Sense SEO" rel="category tag">Common Sense SEO</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/common-sense/" rel="tag">common sense</a>, <a href="http://michaelbastos.com/tag/marketing/" rel="tag">marketing</a>, <a href="http://michaelbastos.com/tag/seo/" rel="tag">SEO</a>, <a href="http://michaelbastos.com/tag/start/" rel="tag">start</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/06/23/what-can-i-do-now-to-start-marketing-my-business-online/#respond" title="Comment on Common Sense SEO Part 6: Start Now"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-577 -->
+
+				
+					
+	<article id="post-568" class="post-568 post type-post status-publish format-standard hentry category-automate-wordpress category-bastos-cloud tag-cheaper tag-commodity tag-design tag-web-design">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/05/06/why-web-design-has-now-become-a-commodity-and-will-get-cheaper-and-cheaper/" title="Permalink to Web Design as a Commodity" rel="bookmark">Web Design as a Commodity</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/05/06/why-web-design-has-now-become-a-commodity-and-will-get-cheaper-and-cheaper/" title="8:59 pm" rel="bookmark"><time class="entry-date" datetime="2011-05-06T20:59:28+00:00" pubdate>May 6, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/05/06/why-web-design-has-now-become-a-commodity-and-will-get-cheaper-and-cheaper/#comments" title="Comment on Web Design as a Commodity">4</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>There has been much talk in the Web Development Community about growth of sites like ThemeForest.net and other that sell high quality web based themes for around $30 to $40. Many who make their living from selling themes argue that they wish prices would be hire, they are claim that in contrast these same higher quality themes would cost you roughly $2000 in the custom space but selling on through these sort of services undermines their bottom line simply does not generate as much revenue as they feel their work deserves.</p>
+<p>Though I may agree with the pretense I don&#8217;t agree with the conclusion,  All businesses must face competition and while I think designers deserve a lot more than they are being paid now, the line between what we deserve to get and what we actually get can be extremely distant in any business let alone Web Design.</p>
+<p>The question we should be asking is not whether theme prices are too low but on whether or not this industry which has gone from specialization to commoditization. I was a web designer back in the early 90&#8242;s when CSS was just starting out and we still coded everything within a single perl file. I got out of the design business because the fact was that within a few years prices dropped drastically, it had nothing to do with the lack of work available and had more to do with the influx of new designers and developers that were willing to work for cheaper rates.</p>
+<p>I moved on to other forms of development but was eventually forced to move back into the web game because of clients that also wanted me to take care of their website along with everything else I did for them. At that point I decided to stay out of the design business because I felt it was too commoditized, you can tell when a business goes from specialized to commodity when the growers ask the market to make you pay more for their corn. I think there a lot of talented WordPress developers out there but seeing as I buy many themes for my own corporate needs, I do feel like WooThemes and Press75 are over priced for what they do, they&#8217;re designs are great but considering I don&#8217;t see much of a great difference between designs I&#8217;d much rather pay for a $35 design on Theme Forest that blows me away than a $200 design on Woo that looks like everyone of their other designs.</p>
+<p>I don&#8217;t say all of this to upset to industry but the fact is that the web design and theme industry has always been a specialized business and when you go from making $2000 a web page in the mid 90&#8242;s to $35 for a fully functional site almost 15 years later, the business has commoditized and needs to think in terms of scale. I think the ThemeForest Model works because the designer can still make a substantial amount across multiple customers instead of making a ridiculous amount from a single customer. Wishing and hoping that this price point would change doesn&#8217;t better your industry, it just opens the doors for other less known dev&#8217;s to come in and corner the market with cheaper and better product.</p>
+<p>I think the future in theme development has less to do with actual themes and more to do with individual themes allowing for greater customization from the end users. I see SquareSpace.com as the gold standard for what theme developers should strive to emulate and other companies like iThemes and Headway have already started doing this with their ridiculously easy to customize and modify themes while creating their own internal marketplace for customer creations. It&#8217;s no different than normal software development, things will get cheaper and forces people to innovate and add greater features and functionality at the same price. I think designers for too long have made good money with custom work while these new technologies are slowly making it easier and cheaper for others to enter the industry quickly and efficiently.</p>
+<p>If you think like a designer than you&#8217;re going to want to get paid more for doing less, if you think like a software programmer then you&#8217;re job will always be to innovate and create tools that make your own jobs obsolete allowing for greater scale of their time and efforts. I&#8217;m sorry to be the buzz kill here but I&#8217;m just looking at it merely from a numbers and business perspective. Ultimately I&#8217;m more than willing to pay $200 for a theme, but it has to do more than just look pretty, the ability to take a single design and use it for many things is what causes people to want to pay more, otherwise $35 is the perfect price to experiment with on a theme and see if it&#8217;s going to fit the current project I&#8217;m working on or not. Anymore than that and I would have less wiggle room to work with and would be stuck with the design I paid so much more money for. Think less like your industry, and more like your customers and you&#8217;ll dominate your industry hands down.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/books/automate-wordpress/" title="View all posts in Automate WordPress" rel="category tag">Automate WordPress</a>, <a href="http://michaelbastos.com/category/blogs/bastos-cloud/" title="View all posts in Bastos Cloud" rel="category tag">Bastos Cloud</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/cheaper/" rel="tag">cheaper</a>, <a href="http://michaelbastos.com/tag/commodity/" rel="tag">commodity</a>, <a href="http://michaelbastos.com/tag/design/" rel="tag">design</a>, <a href="http://michaelbastos.com/tag/web-design/" rel="tag">Web Design</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/05/06/why-web-design-has-now-become-a-commodity-and-will-get-cheaper-and-cheaper/#comments" title="Comment on Web Design as a Commodity"><b>4</b> Replies</a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-568 -->
+
+				
+					
+	<article id="post-551" class="post-551 post type-post status-publish format-standard hentry category-bastos-cloud tag-chaos-monkey tag-netflix tag-networks tag-traffic">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/04/26/how-netflix-uses-chaos-monkey-to-take-down-its-own-networks-so-that-they-never-go-down/" title="Permalink to Chaos Monkey saves Netflix" rel="bookmark">Chaos Monkey saves Netflix</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/04/26/how-netflix-uses-chaos-monkey-to-take-down-its-own-networks-so-that-they-never-go-down/" title="3:31 pm" rel="bookmark"><time class="entry-date" datetime="2011-04-26T15:31:16+00:00" pubdate>April 26, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/04/26/how-netflix-uses-chaos-monkey-to-take-down-its-own-networks-so-that-they-never-go-down/#respond" title="Comment on Chaos Monkey saves Netflix"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>There has been a lot of Dedicated Server people jumping on the anti cloud bandwagon lately after Amazon&#8217;s cloud based AWS went down for a few days. Many big named sites like Foursquare and others were offline for quite some time but amazingly one company whom uses Amazon almost exclusively seemed to stand on it&#8217;s own without any issues, Netflix stayed online. How did they do it? The secret lies in the way they structured their networks, great programmers solve problems, superb developers avoid them all together.</p>
+<p>According to Company Rep John Ciancutti, Netflix had build an application which they named Chaos Monkey. Without going too in depth, what this program basically does it randomly takes down Netflix Instances in an attempt to test the network and ensure that there is no single point of failure on it&#8217;s streaming service. While most companies would consider this suicide, Netflix embraced virtualized architecture early on but understood the draw backs of depending on a single network or provider to do everything for them. They made sure that their site and system was robust enough that it could jump from cloud instance to instance based on availability and traffic. This is why 20% of evening internet traffic can be attributed to Netflix streaming and customers never have to see a delay or drop in service.</p>
+<p>Now you make ask how does a single developer do something like this? We&#8217;ll it&#8217;s simple, say for example you run a Python or PHP site using Memcache or MySQL as your database backend? Much like a Raid system expands it&#8217;s data across multiple hard drives, you can create multiple MySQL services across multiple instances and mirror much of your code as well. This is important because as people come to your site and traffic begins to take off, you will need to move them onto different servers with the same information and if any one server goes down, you have a full backup of everything and can be back online with a simple DNS pointer. If you&#8217;re using Amazon another great idea is to section your data in S3 and your server content in EC2, some CMS systems like WordPress and Drupal actually have plugin modules that let you automatically save your media to S3 so your site can elastically keep up with processing demands for high traffic use. If you&#8217;re building your application yourself, Amazon has a whole class on using their S3 API&#8217;s to send and pull data to their servers.</p>
+<p>This should be a lesson to developers out there looking at the cloud, instead of running back into your holes, buying your own dedicated machines you should all embrace the future and face your fears of being down head on. There&#8217;s nothing wrong with wanting your own dedicated service, but industries rise and fall based on innovation and what works for one company may not work for future developers. If you are a start up and looking at your options, choose cloud, choose the future in whatever instance or service that may be. Yet know the downfalls and prepare for them, I think Chaos Monkey (a monkey reaking havoc on your network on purpose) is a fantastic idea. Much like modern software developers are using fuzzing techniques to test any and all vulnerabilities in their applications, website and network developers should use similar methods to constantly test their site or service to ensure no single point of failure on their networks. Only then can we really, truly live in the cloud without wires.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-cloud/" title="View all posts in Bastos Cloud" rel="category tag">Bastos Cloud</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/chaos-monkey/" rel="tag">chaos monkey</a>, <a href="http://michaelbastos.com/tag/netflix/" rel="tag">Netflix</a>, <a href="http://michaelbastos.com/tag/networks/" rel="tag">networks</a>, <a href="http://michaelbastos.com/tag/traffic/" rel="tag">traffic</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/04/26/how-netflix-uses-chaos-monkey-to-take-down-its-own-networks-so-that-they-never-go-down/#respond" title="Comment on Chaos Monkey saves Netflix"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-551 -->
+
+				
+					
+	<article id="post-537" class="post-537 post type-post status-publish format-standard hentry category-bastos-ventures tag-developer tag-developers tag-good tag-hard tag-hire">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/04/04/why-is-it-so-hard-to-hire-good-developers-today-and-what-you-can-do-about-it/" title="Permalink to Hiring a Developer" rel="bookmark">Hiring a Developer</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/04/04/why-is-it-so-hard-to-hire-good-developers-today-and-what-you-can-do-about-it/" title="3:46 pm" rel="bookmark"><time class="entry-date" datetime="2011-04-04T15:46:59+00:00" pubdate>April 4, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/04/04/why-is-it-so-hard-to-hire-good-developers-today-and-what-you-can-do-about-it/#respond" title="Comment on Hiring a Developer"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I find it a bit disingenuous when I hear people say that they are looking for a programmer to join their team and they can&#8217;t pay them much but instead are willing to offer them partnership in the firm. Yes I understand that for many startups that is what you have to do in order to get off the ground but in most cases the people making the offer have no development background themselves and or no desire to learn how to develop software and thus are leaving it on the shoulders of that lowly programmer they are looking to hire to solve all their problems.  I love start ups, that is I love working with the ones that have a solid business model in place to make revenue, as a programmer I wanted to give some insight into some of the things I&#8217;ve ran into and hopefully create a virtuous circle for both the company looking to hire and the programmer looking for work.</p>
+<p><strong>Hire by Knowledge not Language</strong> &#8211; I see this request a lot &#8220;Looking for a Python developer that knows Django&#8221; or &#8220;Looking for a PHP or Java developer&#8221; no education required. It is great to see smart programmers getting work in specific fields, but something I see most often is a Founder hiring a developer based on a language skill set and not on overall programming knowledge. Many college taught coders have the skills to jump from one language to another very easily but if you can&#8217;t afford them then the next best thing is hiring someone willing to learn concepts more than just a simple language.</p>
+<p><strong>Encourage Developer Education</strong> &#8211; This is too often something that is lacking in most start ups, so starved for meeting deadlines that they rarely cover coding basics or encourage their programmers to finish their degrees or take higher level classes. In many cases this is also a matter of dependency, if the programmer doesn&#8217;t have a degree then it&#8217;s going to be harder for him to move companies and find a better paying job down the line. This wouldn&#8217;t be a problem in any other job but in the world of development, it&#8217;s a kin to career suicide, you may not have needed a degree to do what you do but trust me in this line of work it&#8217;s almost vital to get good programming gigs past the age of 30.</p>
+<p><strong>Technologies change faster than Employees</strong> &#8211; Today&#8217;s PHP needs are tomorrow&#8217;s Python requirements and future Scala or other language necessities. I&#8217;ve seen companies drop good programmers because their needs changed and the coder they originally hired couldn&#8217;t keep up with the learning curve. If you hire someone out of high school, encourage them to go to college even if that means they are not at everyone of your nightly coding sessions, and if you hire correctly then you won&#8217;t be at every tech meeting trying to find the next guy with the next skill set every time.</p>
+<p><strong>Pay for work done and not for work promised</strong> &#8211; This is something that might get me in trouble with other developers but I see situations where companies will promise to pay based on project completion, this works well with seasoned developers that have been doing this for a while but not for newbies who have no idea what to charge. In those cases paying for what has been delivered will be better than having them deliver halfway work and it will teach them the amount of time it really takes to get something down. It&#8217;s called the laws of threes, everything will always cost 3 times what you estimate, take 3 times as long as you calculate and have three times the number of bugs you expect. Keep that in mind when you hire and you&#8217;ll have a better idea of when things should get done verses when they will get done.</p>
+<p>Overall if you stick with these concepts you should be fine with both hiring and keeping great developers, attitude is important as well and no matter how skilled a programmer is, if he doesn&#8217;t bode well with your organization or company culture then he&#8217;s not worth the hire. Remember that for a technology company your software engineers are your lifeline and the difference between success and utter failure, keep that in mind. You should also read this <strong><a href="http://news.ycombinator.com/item?id=1761530" target="_blank">yCombinator article</a></strong> about taking time off to learning to code yourself.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-ventures/" title="View all posts in Bastos Ventures" rel="category tag">Bastos Ventures</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/developer/" rel="tag">developer</a>, <a href="http://michaelbastos.com/tag/developers/" rel="tag">developers</a>, <a href="http://michaelbastos.com/tag/good/" rel="tag">good</a>, <a href="http://michaelbastos.com/tag/hard/" rel="tag">hard</a>, <a href="http://michaelbastos.com/tag/hire/" rel="tag">Hire</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/04/04/why-is-it-so-hard-to-hire-good-developers-today-and-what-you-can-do-about-it/#respond" title="Comment on Hiring a Developer"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-537 -->
+
+				
+					
+	<article id="post-520" class="post-520 post type-post status-publish format-standard hentry category-bastos-cloud tag-cult tag-marketing tag-social tag-social-media">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/03/30/why-social-media-is-looking-less-and-less-like-marketing-and-more-like-a-cult/" title="Permalink to The Cult of Social Media" rel="bookmark">The Cult of Social Media</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/03/30/why-social-media-is-looking-less-and-less-like-marketing-and-more-like-a-cult/" title="2:57 pm" rel="bookmark"><time class="entry-date" datetime="2011-03-30T14:57:02+00:00" pubdate>March 30, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/03/30/why-social-media-is-looking-less-and-less-like-marketing-and-more-like-a-cult/#respond" title="Comment on The Cult of Social Media"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Social Media is a beast of a sector to understand, it&#8217;s part technology, part high school style politics and most importantly part marketing. Originally it was intended as a way for people to interact with each other online and share links, ideas, stories and so much more. Many of us that have been in technology since the mid 90&#8242;s can remember some of the first Social Media sites like Bolt.com and others before the MySpace and Friendster&#8217;s of the world made it main stream. With the advent of Mega Social Sites the Twitter or Facebook, companies and marketers have stood up and taken notice, many have gone from selling ads on TV and Radio to selling Retweets on their massive 10,000 follower twitter accounts. No one can question that these tools are a marketers dream but I want to caution people who say that there are &#8220;Rules&#8221; to Social Media and if you don&#8217;t follow them you&#8217;ll never get anywhere, that is simply untrue.</p>
+<p>Since the time of the Pharaoh&#8217;s people have always wanted to put themselves above others and lift their interests above those of others around them. I see this all the time when I walk into a tech event and see Social Media experts expounding about the do&#8217;s and don&#8217;ts of Twitter and others. Many have great advice and I&#8217;m not bashing them for it but as a developer I fear the rise of the Social Media Cults, people who blindly follow the advice of other Social &#8220;Experts&#8221; simply because they have a few thousand people following them. They tell them things like Auto DM&#8217;s don&#8217;t work because their not personal enough or you should be on the site 24/7 answering and replying to people. This is great advice if you&#8217;re plan is to become a Social Media Wiz but it doesn&#8217;t work well for the rest of us who work for a living. I have plenty of friends which are Social guys and they make a lot of money doing this so I&#8217;m not trying to rein on their parade but basically explain to you why they make up many of these rules, because when you realize you can&#8217;t do it all yourself they know you&#8217;ll need them.</p>
+<p>Few of us can stand in front of a computer all day and post content, in many cases we are out trying to finish projects or gain clients. So when a Social Media expert tells you that your system will never work because you&#8217;re not on Facebook 24/7 it&#8217;s because they know you can&#8217;t be but they can. I&#8217;m a programmer and most of my time is spent behind a computer screen writing code, I&#8217;ve done my best to maintain my accounts fresh and up to date but even I have a hard time doing it. There are plenty of tools out there that can help you make the most out of what you do online, one of my projects Bastos Cloud lists a slew of automated tools that can help you simplify much of what you do in the Social Media space (<a href="http://bastoscloud.com/tour/automation/" target="_blank">http://bastoscloud.com/tour/automation/</a>) and you&#8217;ll still need to post yourself from time to time so that you don&#8217;t look like a robot but the point to be made here is that there are no real rules to all of this. Other tools like Think Up (<a href="http://thinkupapp.com" target="_blank">http://thinkupapp.com</a>) are really great in helping you go over you data and see what you&#8217;re doing wrong or right without the need to hire anyone. When you set rules you ruin creativity in the market and you end up with 100 different companies building &#8220;Social Media&#8221; sites or apps because they were all told that the rules exist.</p>
+<p>When you remove the Social Media Cult from the equation you are free to innovate and try new things that everyone might have told you was a no go, at least if you try them for yourself then you know whether it worked for you or not. Blindly following the advice of a person who spends most of their day Re-tweeting or Liking something online is not at all a Marketing plan. Ultimately when you go against the rules you reinvent them; Twitter, Facebook and others weren&#8217;t invented by marketers, they were made by developers who said screw it to the rules and tried something new. So don&#8217;t get sucked into thinking that you have to hire some expensive Social Media person to do everything for you, if you can&#8217;t do it yourself and you need to hire someone then test them, Followers do what the crowd wants, leaders tell the crowd what&#8217;s coming next. Keep that in mind when you market online.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-cloud/" title="View all posts in Bastos Cloud" rel="category tag">Bastos Cloud</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/cult/" rel="tag">cult</a>, <a href="http://michaelbastos.com/tag/marketing/" rel="tag">marketing</a>, <a href="http://michaelbastos.com/tag/social/" rel="tag">Social</a>, <a href="http://michaelbastos.com/tag/social-media/" rel="tag">Social Media</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/03/30/why-social-media-is-looking-less-and-less-like-marketing-and-more-like-a-cult/#respond" title="Comment on The Cult of Social Media"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-520 -->
+
+				
+					
+	<article id="post-506" class="post-506 post type-post status-publish format-standard hentry category-required-reading tag-book tag-dominate tag-review tag-tweet tag-twitter-power">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://michaelbastos.com/2011/03/21/book-review-of-twitter-power-2-0-how-to-dominate-your-market-one-tweet-at-a-time-by-joel-comm/" title="Permalink to Book Review of Twitter Power" rel="bookmark">Book Review of Twitter Power</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://michaelbastos.com/2011/03/21/book-review-of-twitter-power-2-0-how-to-dominate-your-market-one-tweet-at-a-time-by-joel-comm/" title="2:47 pm" rel="bookmark"><time class="entry-date" datetime="2011-03-21T14:47:41+00:00" pubdate>March 21, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://michaelbastos.com/author/mbastos/" title="View all posts by Michael Bastos" rel="author">Michael Bastos</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://michaelbastos.com/2011/03/21/book-review-of-twitter-power-2-0-how-to-dominate-your-market-one-tweet-at-a-time-by-joel-comm/#respond" title="Comment on Book Review of Twitter Power"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I&#8217;d been looking for a good social media book that just focused on using Twitter as a platform, as more of my friends convinced me to use platforms like TweetDeck to simplify my social media footprint I picked up Twitter Power 2.0 after hearing much about the writer. All in all it&#8217;s a great book for beginners, it covers the basic concepts of twitter pretty well and teaches you the do&#8217;s and don&#8217;ts of the platform. It also gives you some pretty easy to understand tools and how best to use them so over all a great book for those looking to get more from their relationships on Twitter. I&#8217;ve provided a basic chapter breakdown below from the book to give you a better idea of the topics discussed and I hope you pick it up and try some of what&#8217;s in here for your own personal or corporate brand.</p>
+<p><strong>Introduction: What Can Twitter Do for You?</strong></p>
+<p><strong>Chapter 1: An Introduction to the Social Media Landscape.</strong></p>
+<ul>
+<li>So What Exactly Is Social Media?</li>
+<li>Social Media, So What? Why Social Media Really Is a Big Deal.</li>
+<li>The Different Types of Social Media Sites—Content to Suit Every Market.</li>
+<li>A Closer Look at Microblogging.</li>
+<li>Introducing . . . Twitter!</li>
+</ul>
+<p><strong>Chapter 2: What Is Twitter and Why Is It So Powerful?</strong></p>
+<ul>
+<li>Twitter and Its Successes.</li>
+<li>The Power of Twitter’s Immediate Feedback.</li>
+<li>Instant Access to Smart People 24/7.</li>
+</ul>
+<p><strong>Chapter 3: Getting Started the Right Way on Twitter.</strong></p>
+<ul>
+<li>Signing Up—Does Twitter Have the Web’s Most Friendly Registration Page?</li>
+<li>Who’s on Twitter? Your First Followers!</li>
+<li>Create an Inviting Twitter Profile.</li>
+<li>Choosing Your Twitter Picture.</li>
+<li>Designing Your Twitter Profile.</li>
+<li>Designing a Commercial Background Image for Twitter.</li>
+<li>Choosing the Right Colors.</li>
+<li>Notices to Notice.</li>
+<li>Tweeting with Your Mobile Phone.</li>
+<li>Sending Your Very First Tweet.</li>
+<li>Becoming a Follower.</li>
+<li>A Word about Security.</li>
+</ul>
+<p><strong>Chapter 4: Building a Following on Twitter.</strong></p>
+<ul>
+<li>Quantity or Quality: Choosing the Type of Following You Want.</li>
+<li>Quality: How to Be Intentional about Creating Your Own Network of Experts.</li>
+<li>Quantity: Seven Killer Strategies to Reaching Critical Mass on Twitter.</li>
+<li>Twitterank and Page Rank.</li>
+</ul>
+<p><strong>Chapter 5: The Art of the Tweet.</strong></p>
+<ul>
+<li>Tweet Etiquette.</li>
+<li>The Benefits of Following before Twittering.</li>
+<li>How to Join a Conversation.</li>
+<li>How to Be Interesting on Twitter.</li>
+<li>How to Drive Behavior.</li>
+</ul>
+<p><strong>Chapter 6: The Magic of Connecting with Customers on Twitter.</strong></p>
+<ul>
+<li>Identifying Problems and Soliciting Feedback.</li>
+<li>Discovering Your Top Fans, Promoters, and Evangelists.</li>
+<li>Your Micro Help Desk.</li>
+</ul>
+<p><strong>Chapter 7: Leveraging Twitter for Team Communication.</strong></p>
+<ul>
+<li>Twitter for Virtual Team Leaders.</li>
+<li>Creating a Twitter Account for a Virtual Team.</li>
+<li>Building a Team with Twitter.</li>
+</ul>
+<p><strong>Chapter 8: Using Twitter to Help Build Your Brand.</strong></p>
+<ul>
+<li>Create a Story.</li>
+<li>Portraying Your Brand with Your Profile.</li>
+<li>Tweet style—What to Say When You’re Building a Brand to Create Value and How to Say It.</li>
+<li>Reinforce the Core Message.</li>
+<li>Repetition, Repetition, Repetition.</li>
+<li>Writing the Tweets.</li>
+<li>Win Retweets.</li>
+<li>Create Hashtags and Run Hashtag Chats.</li>
+</ul>
+<p><strong>Chapter 9: Leveraging the Power of Twitter to Drive Behavior in Your Followers.</strong></p>
+<ul>
+<li>Driving Followers to a Web Site.</li>
+<li>Promoting a Blog on Twitter.</li>
+<li>Twitter as a Resource for Post Ideas.</li>
+<li>Driving Followers to the Mall.</li>
+<li>Can You Put Affiliate Links on Twitter?</li>
+<li>Driving Followers to Register.</li>
+<li>Tracking Results and Testing Strategies.</li>
+<li>Tracking Multiple Tweets.</li>
+<li>Making the Most of Twitter’s Trends.</li>
+</ul>
+<p><strong>Chapter 10: Quick Ways to Make Money on Twitter.</strong></p>
+<ul>
+<li>Earn with Advertising on Twitter.</li>
+<li>Offer Specialized Services.</li>
+<li>Barter, Buy, and Sell Your Way to Profit.</li>
+</ul>
+<p><strong>Chapter 11: Beyond Twitter.com: Third-Party Tools You Will Want to Know About.</strong></p>
+<ul>
+<li>SocialOomph.</li>
+<li>Twitterrific.</li>
+<li>Twhirl.</li>
+<li>Twitterfeed.</li>
+<li>Trendistic.</li>
+<li>Twellow.</li>
+<li>TweetBeep.</li>
+<li>TwitterCounter.</li>
+<li>TweetDeck.</li>
+<li>TwitThis.</li>
+<li>TweetAways.</li>
+<li>HootSuite.</li>
+<li>TwitPic.</li>
+</ul>
+<p><strong>Chapter 12: Building Powerful Solutions on Top of the Twitter Platform.</strong></p>
+<ul>
+<li>So What Is an API Anyway?</li>
+<li>What Can You Do With Twitter’s API? Automating Your Twitter Experience.</li>
+<li>Creating Your Twitter App.</li>
+</ul>
+<p><strong>Chapter 13: Putting It All Together.</strong></p>
+<ul>
+<li>A 30-Day Plan for Dominating Twitter.</li>
+</ul>
+<p><strong>Chapter 14: Power Twitterers.</strong></p>
+<p>All in all like I said before it&#8217;s a great book for beginner twitter users, for those of us who have been using the service for some years now, it helps you focus your efforts in a much more robust and compelling way. Enjoy.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://michaelbastos.com/category/blogs/bastos-ventures/required-reading/" title="View all posts in Required Reading" rel="category tag">Required Reading</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://michaelbastos.com/tag/book/" rel="tag">Book</a>, <a href="http://michaelbastos.com/tag/dominate/" rel="tag">dominate</a>, <a href="http://michaelbastos.com/tag/review/" rel="tag">Review</a>, <a href="http://michaelbastos.com/tag/tweet/" rel="tag">tweet</a>, <a href="http://michaelbastos.com/tag/twitter-power/" rel="tag">Twitter Power</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://michaelbastos.com/2011/03/21/book-review-of-twitter-power-2-0-how-to-dominate-your-market-one-tweet-at-a-time-by-joel-comm/#respond" title="Comment on Book Review of Twitter Power"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-506 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://michaelbastos.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-3" class="widget widget_text"><h3 class="widget-title">About Me</h3>			<div class="textwidget"><p>Self & School taught C++, Java, PHP, Perl and Python Developer working as an Open Source Consultant in San Diego, California. Always looking for a challenge...</p>
+<p><a href="https://twitter.com/bastosmichael" class="twitter-follow-button">Follow @bastosmichael</a><br />
+<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script></p>
+</div>
+		</aside><aside id="facebooklikebox-3" class="widget widget_FacebookLikeBox"><h3 class="widget-title">Fans on Facebook</h3><iframe src="http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/bastosmichael&amp;width=240&amp;colorscheme=light&amp;border_color=AAAAAA&amp;show_faces=true&amp;connections=16&amp;stream=false&amp;header=true&amp;height=432" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:432px;" allowTransparency="true"></iframe><div><a href="http://cmsvoteup.com/joomla-extensions/facebook-like-box-like-recommendation-for-joomla-wordpress/" title="Vote for this Free Facebook Like Box for Wordpress" target="_blank">*</a></div></aside><aside id="text-5" class="widget widget_text"><h3 class="widget-title">In the News</h3>			<div class="textwidget"><p data-ft="{&quot;type&quot;:1}">Great local article about Open Source Software in the San Diego Area and a quote by me on what it means to work in that Industry...</p>
+<p><a href="http://www.signonsandiego.com/news/2011/aug/18/san-diego-open-source-software-makers-meet-and-gee/" rel="nofollow" target="_blank" data-ft="{&quot;type&quot;:41}"><img class="alignleft" style="border-style: initial; border-color: initial; border-width: 0px; margin: 10px;" src="https://s-external.ak.fbcdn.net/safe_image.php?d=AQA_ivMUX4eFhIyH&amp;w=90&amp;h=90&amp;url=http%3A%2F%2Fmedia.signonsandiego.com%2Fimg%2Fphotos%2F2011%2F08%2F18%2Frefresh1_t352.jpg%3F980751187beea6fc26a3a9e93795d379f58af1c4" alt="" width="90" height="59" /></a></p>
+<p><strong><a href="http://www.signonsandiego.com/news/2011/aug/18/san-diego-open-source-software-makers-meet-and-gee/" target="_blank">San Diego open-source software makers meet up and geek out - SignOnSanDiego.com</a></strong><br />
+<a href="http://www.signonsandiego.com/" rel="nofollow nofollow" target="_blank">www.signonsandiego.com</a></p>
+</div>
+		</aside><aside id="text-4" class="widget widget_text"><h3 class="widget-title">My Sponsors</h3>			<div class="textwidget"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-4228490019228264";
+/* michaelbastos.com */
+google_ad_slot = "2710935707";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href='http://michaelbastos.com/tag/amazon/' class='tag-link-17' title='1 topic' style='font-size: 8pt;'>Amazon</a>
+<a href='http://michaelbastos.com/tag/analysis/' class='tag-link-18' title='1 topic' style='font-size: 8pt;'>Analysis</a>
+<a href='http://michaelbastos.com/tag/android/' class='tag-link-19' title='2 topics' style='font-size: 11.405405405405pt;'>Android</a>
+<a href='http://michaelbastos.com/tag/apple/' class='tag-link-20' title='1 topic' style='font-size: 8pt;'>Apple</a>
+<a href='http://michaelbastos.com/tag/backlinks/' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>backlinks</a>
+<a href='http://michaelbastos.com/tag/bag/' class='tag-link-22' title='1 topic' style='font-size: 8pt;'>bag</a>
+<a href='http://michaelbastos.com/tag/bail/' class='tag-link-23' title='1 topic' style='font-size: 8pt;'>bail</a>
+<a href='http://michaelbastos.com/tag/bastos-media/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Bastos Media</a>
+<a href='http://michaelbastos.com/tag/bastos-tv-2/' class='tag-link-24' title='1 topic' style='font-size: 8pt;'>bastos TV</a>
+<a href='http://michaelbastos.com/tag/book/' class='tag-link-136' title='3 topics' style='font-size: 13.675675675676pt;'>Book</a>
+<a href='http://michaelbastos.com/tag/boxee/' class='tag-link-25' title='1 topic' style='font-size: 8pt;'>Boxee</a>
+<a href='http://michaelbastos.com/tag/business/' class='tag-link-27' title='2 topics' style='font-size: 11.405405405405pt;'>business</a>
+<a href='http://michaelbastos.com/tag/business-model/' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>Business Model</a>
+<a href='http://michaelbastos.com/tag/cbs/' class='tag-link-29' title='1 topic' style='font-size: 8pt;'>CBS</a>
+<a href='http://michaelbastos.com/tag/classes/' class='tag-link-31' title='1 topic' style='font-size: 8pt;'>classes</a>
+<a href='http://michaelbastos.com/tag/clients/' class='tag-link-32' title='1 topic' style='font-size: 8pt;'>clients</a>
+<a href='http://michaelbastos.com/tag/cms/' class='tag-link-33' title='1 topic' style='font-size: 8pt;'>CMS</a>
+<a href='http://michaelbastos.com/tag/cnn/' class='tag-link-34' title='1 topic' style='font-size: 8pt;'>CNN</a>
+<a href='http://michaelbastos.com/tag/college/' class='tag-link-35' title='1 topic' style='font-size: 8pt;'>college</a>
+<a href='http://michaelbastos.com/tag/comfort-zone/' class='tag-link-36' title='1 topic' style='font-size: 8pt;'>comfort zone</a>
+<a href='http://michaelbastos.com/tag/common-sense/' class='tag-link-37' title='3 topics' style='font-size: 13.675675675676pt;'>common sense</a>
+<a href='http://michaelbastos.com/tag/competition/' class='tag-link-38' title='1 topic' style='font-size: 8pt;'>Competition</a>
+<a href='http://michaelbastos.com/tag/contact-form/' class='tag-link-39' title='1 topic' style='font-size: 8pt;'>contact form</a>
+<a href='http://michaelbastos.com/tag/conversion/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>conversion</a>
+<a href='http://michaelbastos.com/tag/crank-com/' class='tag-link-41' title='1 topic' style='font-size: 8pt;'>Crank.com</a>
+<a href='http://michaelbastos.com/tag/dell/' class='tag-link-42' title='1 topic' style='font-size: 8pt;'>Dell</a>
+<a href='http://michaelbastos.com/tag/drupal/' class='tag-link-43' title='1 topic' style='font-size: 8pt;'>Drupal</a>
+<a href='http://michaelbastos.com/tag/efficiency/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>efficiency</a>
+<a href='http://michaelbastos.com/tag/entrepreneur/' class='tag-link-45' title='2 topics' style='font-size: 11.405405405405pt;'>Entrepreneur</a>
+<a href='http://michaelbastos.com/tag/excel/' class='tag-link-46' title='1 topic' style='font-size: 8pt;'>Excel</a>
+<a href='http://michaelbastos.com/tag/executives/' class='tag-link-47' title='1 topic' style='font-size: 8pt;'>executives</a>
+<a href='http://michaelbastos.com/tag/facebook/' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>Facebook</a>
+<a href='http://michaelbastos.com/tag/family/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>family</a>
+<a href='http://michaelbastos.com/tag/good/' class='tag-link-131' title='2 topics' style='font-size: 11.405405405405pt;'>good</a>
+<a href='http://michaelbastos.com/tag/google/' class='tag-link-54' title='10 topics' style='font-size: 22pt;'>Google</a>
+<a href='http://michaelbastos.com/tag/marketing/' class='tag-link-118' title='3 topics' style='font-size: 13.675675675676pt;'>marketing</a>
+<a href='http://michaelbastos.com/tag/networks/' class='tag-link-126' title='2 topics' style='font-size: 11.405405405405pt;'>networks</a>
+<a href='http://michaelbastos.com/tag/open-source/' class='tag-link-73' title='2 topics' style='font-size: 11.405405405405pt;'>Open Source</a>
+<a href='http://michaelbastos.com/tag/review/' class='tag-link-137' title='3 topics' style='font-size: 13.675675675676pt;'>Review</a>
+<a href='http://michaelbastos.com/tag/seo/' class='tag-link-90' title='8 topics' style='font-size: 20.297297297297pt;'>SEO</a>
+<a href='http://michaelbastos.com/tag/social-media/' class='tag-link-91' title='2 topics' style='font-size: 11.405405405405pt;'>Social Media</a>
+<a href='http://michaelbastos.com/tag/software/' class='tag-link-92' title='3 topics' style='font-size: 13.675675675676pt;'>software</a>
+<a href='http://michaelbastos.com/tag/tech/' class='tag-link-96' title='2 topics' style='font-size: 11.405405405405pt;'>Tech</a>
+<a href='http://michaelbastos.com/tag/wordpress/' class='tag-link-106' title='2 topics' style='font-size: 11.405405405405pt;'>WordPress</a>
+<a href='http://michaelbastos.com/tag/wwgd/' class='tag-link-107' title='2 topics' style='font-size: 11.405405405405pt;'>WWGD</a></div>
+</aside>		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function(){
+        jQuery(".easy-table-creator").tablesorter({widgets: ['zebra']});
+
+
+    })
+
+
+
+</script>
+
+</body>
+</html>
+<!-- This Quick Cache file was built for (  michaelbastos.com/ ) in 1.63107 seconds, on May 31st, 2012 at 2:19 am UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on May 31st, 2012 at 3:19 am UTC -->
