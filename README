@@ -1,0 +1,9 @@
+To Test it out, simply run the command 
+
+./SWC/Debug/SWC http://michaelbastos.com
+
+This will just download the webpage and cache it, to use an argument then do the following
+
+./SWC/Debug/SWC http://michaelbastos.com '<li>.*</li>' 
+
+This will not only download the page and cache it, it will then parse it for any statements inside of <li> brackets...
