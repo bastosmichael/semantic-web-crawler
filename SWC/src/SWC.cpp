@@ -128,7 +128,7 @@ void parsePage(vector<string> page, string pattern){
 
 void parseLine(string line, string pattern){
 
-		delSpaces(line);
+		//delSpaces(line);
 		//const char *l;
 			//l=line.c_str();
 		//char *pat;
@@ -156,13 +156,13 @@ void regexLine(string line, string pattern){
 
 			if (regexec(&reg,line.c_str(),1,matches,0)==0) {
 			  //cout << "Match ";
-			  //cout << line.substr(matches[0].rm_so,matches[0].rm_eo-matches[0].rm_so);
+			  cout << line.substr(matches[0].rm_so,matches[0].rm_eo-matches[0].rm_so);
 			  //cout << " found starting at: ";
 			  //cout << matches[0].rm_so;
 			  //cout << " and ending at ";
 			  //cout << matches[0].rm_eo;
 			  //cout << " - " << line;
-			  //cout << endl;
+			  cout << endl;
 			} else {
 			  //cout << "Match not found.";
 			  //cout << endl;
