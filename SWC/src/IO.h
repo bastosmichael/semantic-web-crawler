@@ -7,13 +7,16 @@
 
 #ifndef IO_H_
 #define IO_H_
-
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 namespace std {
 
 class IO {
 public:
 	IO();
 	virtual ~IO();
+	void processArguments(std::string inputs);
 };
 
 } /* namespace std */

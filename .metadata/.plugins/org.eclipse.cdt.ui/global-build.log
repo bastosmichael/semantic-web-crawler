@@ -7683,3 +7683,312 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project SWC ****
+
+make clean 
+rm -rf  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o  ./src/Crawler.d ./src/Database.d ./src/IO.d ./src/Parser.d ./src/SWC.d ./src/Storage.d  SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/michael/Semantic-Web-Crawler/External Libraries/boost_1_49_0" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+Finished building: ../src/Storage.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Crawler.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Crawler.d" -MT"src/Crawler.d" -o "src/Crawler.o" "../src/Crawler.cpp"
+Finished building: ../src/Crawler.cpp
+ 
+Building file: ../src/Database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Database.d" -MT"src/Database.d" -o "src/Database.o" "../src/Database.cpp"
+Finished building: ../src/Database.cpp
+ 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/Parser.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Parser.d" -MT"src/Parser.d" -o "src/Parser.o" "../src/Parser.cpp"
+Finished building: ../src/Parser.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp:26:27: fatal error: boost/regex.hpp: No such file or directory
+compilation terminated.
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+Finished building: ../src/Storage.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+In file included from ../src/IO.cpp:8:0:
+../src/IO.h:17:33: error: ‘std::string’ has not been declared
+../src/IO.h:17:7: error: extra qualification ‘std::IO::’ on member ‘processArguments’ [-fpermissive]
+../src/IO.cpp:20:32: error: variable or field ‘processArguments’ declared void
+../src/IO.cpp:20:27: error: ‘string’ is not a member of ‘std’
+../src/IO.cpp:30:1: error: expected ‘}’ at end of input
+make: *** [src/IO.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+In file included from ../src/IO.cpp:8:0:
+../src/IO.h:17:29: error: ‘std::string’ has not been declared
+../src/IO.cpp:20:28: error: variable or field ‘processArguments’ declared void
+../src/IO.cpp:20:23: error: ‘string’ is not a member of ‘std’
+../src/IO.cpp:30:1: error: expected ‘}’ at end of input
+make: *** [src/IO.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+In file included from ../src/IO.cpp:8:0:
+../src/IO.h:19:7: error: extra qualification ‘std::IO::’ on member ‘processArguments’ [-fpermissive]
+../src/IO.cpp: In member function ‘void std::IO::processArguments(std::string)’:
+../src/IO.cpp:24:25: error: ‘generateUrlHash’ was not declared in this scope
+../src/IO.cpp:26:23: error: ‘parseArgument’ was not declared in this scope
+make: *** [src/IO.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+In file included from ../src/IO.cpp:8:0:
+../src/IO.h:19:7: error: extra qualification ‘std::IO::’ on member ‘processArguments’ [-fpermissive]
+make: *** [src/IO.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/IO.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IO.d" -MT"src/IO.d" -o "src/IO.o" "../src/IO.cpp"
+Finished building: ../src/IO.cpp
+ 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+./src/SWC.o: In function `main':
+/home/michael/Semantic-Web-Crawler/SWC/Debug/../src/SWC.cpp:185: undefined reference to `processArguments(std::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: ld returned 1 exit status
+make: *** [SWC] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:185:37: error: cannot call member function ‘void std::IO::processArguments(std::string)’ without object
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:186:37: error: cannot call member function ‘void std::IO::processArguments(std::string)’ without object
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:185:54: error: expected type-specifier before ‘;’ token
+../src/SWC.cpp:185:54: error: invalid use of void expression
+../src/SWC.cpp:185:12: warning: unused variable ‘argument’ [-Wunused-variable]
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+../src/SWC.cpp: In function ‘int main(int, char**)’:
+../src/SWC.cpp:185:27: error: expected type-specifier before ‘processArguments’
+../src/SWC.cpp:185:27: error: conversion from ‘int*’ to non-scalar type ‘std::IO’ requested
+../src/SWC.cpp:185:27: error: expected ‘,’ or ‘;’ before ‘processArguments’
+make: *** [src/SWC.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/SWC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SWC.d" -MT"src/SWC.d" -o "src/SWC.o" "../src/SWC.cpp"
+Finished building: ../src/SWC.cpp
+ 
+Building target: SWC
+Invoking: GCC C++ Linker
+g++  -o "SWC"  ./src/Crawler.o ./src/Database.o ./src/IO.o ./src/Parser.o ./src/SWC.o ./src/Storage.o   
+Finished building target: SWC
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+In file included from ../src/Storage.cpp:8:0:
+../src/Storage.h:17:27: error: expected ‘;’ at end of member declaration
+../src/Storage.cpp: In member function ‘void std::Storage::checkForCacheFolder()’:
+../src/Storage.cpp:22:23: error: ‘mkdir’ was not declared in this scope
+make: *** [src/Storage.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project SWC ****
+
+make all 
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+In file included from ../src/Storage.cpp:8:0:
+../src/Storage.h:17:27: error: expected ‘;’ at end of member declaration
+../src/Storage.cpp: In member function ‘void std::Storage::checkForCacheFolder()’:
+../src/Storage.cpp:22:23: error: ‘mkdir’ was not declared in this scope
+make: *** [src/Storage.o] Error 1
+
+**** Build Finished ****

@@ -7,13 +7,14 @@
 
 #ifndef STORAGE_H_
 #define STORAGE_H_
-
+#include <iostream>
 namespace std {
 
 class Storage {
 public:
 	Storage();
 	virtual ~Storage();
+	void checkForCacheFolder()
 };
 
 } /* namespace std */

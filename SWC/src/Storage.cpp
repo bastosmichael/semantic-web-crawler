@@ -18,4 +18,11 @@ Storage::~Storage() {
 	// TODO Auto-generated destructor stub
 }
 
+void Storage::checkForCacheFolder(){
+	if(mkdir("cache",0777)==-1)//creating a directory
+		{
+		        //cerr<<"Caching..." <<endl;
+		}
+}
+
 } /* namespace std */

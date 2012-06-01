@@ -23,7 +23,9 @@
 #include <algorithm>   // remove_if()
 #include <cctype>      // isspace()
 #include <functional>  // ptr_fun <>
-#include <boost/regex.hpp>
+//#include <boost/regex.hpp>
+
+#include "IO.h"
 using namespace std;
 
 vector<string> page;
@@ -63,15 +65,15 @@ void checkForCacheFolder(){
 		}
 }
 
-void processArguments(std::string inputs){
-	if(inputs.find("SWC") != string::npos){
+//void processArguments(std::string inputs){
+	//if(inputs.find("SWC") != string::npos){
 		//Check for application argument ./SWC
-	} else if(inputs.find("http://") != string::npos || inputs.find("https://") != string::npos){
-		generateUrlHash(inputs);
-	} else {
-		parseArgument(inputs);
-	}
-}
+	//} else if(inputs.find("http://") != string::npos || inputs.find("https://") != string::npos){
+		//generateUrlHash(inputs);
+	//} else {
+		//parseArgument(inputs);
+	//}
+//}
 
 void parseArgument(std::string argument){
 	cout << argument << endl;
@@ -180,7 +182,8 @@ void regexLine(string line, string pattern){
 int main(int argc, char *argv[]) {
 	checkForCacheFolder();
     for (int i=0; i < argc; i++){
-        processArguments(argv[i]);
+    	cout << argv[i] << endl;
+        //IO argument = new processArguments(argv[i]);
     }
     return 0;
 }

@@ -2,6 +2,13 @@
 **** Build of configuration Debug for project SWC ****
 
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/Storage.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Storage.d" -MT"src/Storage.d" -o "src/Storage.o" "../src/Storage.cpp"
+In file included from ../src/Storage.cpp:8:0:
+../src/Storage.h:17:27: error: expected ‘;’ at end of member declaration
+../src/Storage.cpp: In member function ‘void std::Storage::checkForCacheFolder()’:
+../src/Storage.cpp:22:23: error: ‘mkdir’ was not declared in this scope
+make: *** [src/Storage.o] Error 1
 
 **** Build Finished ****
