@@ -22,7 +22,7 @@ void IO::processArguments(std::string inputs, Storage cache){
 		//Check for application argument ./SWC
 	} else if(inputs.find("http://") != string::npos || inputs.find("https://") != string::npos){
 		cout << inputs << endl;
-		cache.generateUrlHash(inputs);
+		cache.generateUrlHash(inputs,cache);
 	} else {
 		cout << inputs << endl;
 		//parseArgument(inputs);

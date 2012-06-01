@@ -7,23 +7,7 @@
 //============================================================================
 
 #include <iostream>
-//#include <vector>
-//#include <string>
-//#include <cstdlib>
-//#include <locale>
-//#include <sstream>
 #include <sys/stat.h>
-//#include <sys/types.h>
-//#include <fstream>
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <regex.h>
-//#include <string.h>
-//#include <algorithm>   // remove_if()
-//#include <cctype>      // isspace()
-//#include <functional>  // ptr_fun <>
-//#include <boost/regex.hpp>
-
 
 #include "Crawler.h"
 #include "Database.h"

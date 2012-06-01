@@ -21,24 +21,38 @@ Storage::~Storage() {
 void Storage::checkForCacheFolder(){
 	if(mkdir("cache",0777)==-1)//creating a directory
 		{
-		        cerr<<"Caching...\n" <<endl;
+		        cerr<<"Caching..." <<endl;
 		}
 }
 
-void Storage::generateUrlHash(std::string url){
+void Storage::generateUrlHash(std::string url, Storage cache){
+	Crawler Url;
 	locale loc;
 	const collate<char>& coll = use_facet<collate<char> >(loc);
-	long urlhash = coll.hash(url.data(),url.data()+url.length());
-	std::string hash;
+	long hash = coll.hash(url.data(),url.data()+url.length());
 	std::stringstream strstream;
-	strstream << urlhash;
-	strstream >> hash;
-	string path = "cache/" + hash;
-	const char *p;
-	p=path.c_str();
-	//cout << p << endl;
-	cout << " " << url << " " << hash << endl;
-	//loadPage(p,url,hash);
+	strstream << hash;
+	strstream >> Url.urlhash;
+	string p = "cache/" + Url.urlhash;
+	Url.path=p.c_str();
+	cout << "Saving to " << Url.path << " from " << url << " as " << Url.urlhash << endl;
+	cache.loadPage(Url);
+}
+
+void Storage::loadPage(Crawler Url){
+	//page.clear();
+	string line;
+	ifstream read (Url.path);//reading a file
+	if (read.is_open()) {
+		while (! read.eof() ) {
+			getline (read,line);
+			page.push_back (line);
+			cout << line << endl;
+	    }
+	    read.close();
+	} else {
+		//Url.downloadUrl(*Url);
+	}
 }
 
 } /* namespace std */

@@ -1,0 +1,29 @@
+/*
+ * Crawler.cpp
+ *
+ *  Created on: May 5, 2012
+ *      Author: michael
+ */
+
+#include "Crawler.h"
+#include "Storage.h"
+
+namespace std {
+
+Crawler::Crawler() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Crawler::~Crawler() {
+	// TODO Auto-generated destructor stub
+}
+
+void Crawler::downloadUrl (const char *path, string url, string urlhash, Storage cache){
+	std::string command = "cd cache && wget " + url + " --output-document=" + urlhash + " --continue --force-html";
+	system(command.c_str());
+	//cout << command << endl;
+	cache.loadPage(path,url,urlhash,cache);
+}
+
+} /* namespace std */
