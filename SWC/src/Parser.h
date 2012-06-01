@@ -7,7 +7,7 @@
 
 #ifndef PARSER_H_
 #define PARSER_H_
-
+#include <iostream>
 namespace std {
 
 class Parser {

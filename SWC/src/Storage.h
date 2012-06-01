@@ -8,13 +8,17 @@
 #ifndef STORAGE_H_
 #define STORAGE_H_
 #include <iostream>
+#include <sys/stat.h>
+#include <locale>
+#include <sstream>
 namespace std {
 
 class Storage {
 public:
 	Storage();
 	virtual ~Storage();
-	void checkForCacheFolder()
+	void checkForCacheFolder();
+	void generateUrlHash(std::string url);
 };
 
 } /* namespace std */

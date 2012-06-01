@@ -7,7 +7,7 @@
 
 #ifndef DATABASE_H_
 #define DATABASE_H_
-
+#include <iostream>
 namespace std {
 
 class Database {
